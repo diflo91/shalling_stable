@@ -1,8 +1,4 @@
-# shalling
-************************************** Projet wilder ************************************
 
-![Shalling](asset/logo_wild.png)
+# shalling_stable
+open
 
-********************************** Screen de l'application ******************************
-
-![Shalling](asset/screen.png)
