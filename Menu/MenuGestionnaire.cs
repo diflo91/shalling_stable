@@ -14,6 +14,8 @@ namespace Application_wild_student.Menu
         {
             
             GestionApplication application = new GestionApplication();
+            application._ChargerListJson();
+
             while(true) { 
 
             
@@ -37,7 +39,7 @@ namespace Application_wild_student.Menu
                    
               if (ChoixMenuPrincipal == "1")
                  {
-
+                    while(ChoixMenuPrincipal == "1") { 
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine(GlobalAttribute.wildStudent);
@@ -76,10 +78,9 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
                         Console.WriteLine("* LISTE ELEVES");
                         Console.WriteLine("    ");
-                        Console.Write("    ");
 
                         application.VoirLesEleves();
-
+                        Console.Read();
 
 
                     } else if (ChoixMenuEleve == "2")
@@ -94,10 +95,6 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("* IDENTITE ELEVE");
                         Console.WriteLine("    ");
                         Console.Write("    ");
-                        Console.Write("Identifiant :");
-                        Console.Write("    ");
-                        int IdEleve = int.Parse(Console.ReadLine() ?? "");
-                        Console.Write("    ");
                         Console.Write("Nom :");
                         Console.Write("    ");
                         string NomEleve = Console.ReadLine() ?? ""; 
@@ -110,15 +107,16 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
                         string DateEleve = Console.ReadLine() ?? "";
 
-                        application.AjouterEleve(IdEleve, NomEleve, PrenomEleve, DateEleve);
+                        application.AjouterEleve(NomEleve, PrenomEleve, DateEleve);
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Console.WriteLine(GlobalAttribute.wildStudent);
                         Console.WriteLine("    ");
                         Console.WriteLine("                       LA CREATION DE L'ELEVE AVEC SUCCES              ");
                         Console.WriteLine("    ");
-                     
-                    } else if (ChoixMenuEleve == "3")
+                        Console.Read();
+
+                        } else if (ChoixMenuEleve == "3")
                     {
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -136,9 +134,9 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
 
                         application.AfficherEleve(IdEleve);
+                        Console.Read();
 
-
-                    } else if(ChoixMenuEleve == "4") 
+                        } else if(ChoixMenuEleve == "4") 
                     {
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -154,9 +152,9 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
                         int IdEleve = int.Parse(Console.ReadLine() ?? "");
                         Console.Write("    ");
-                        Console.Write("Identifiant cours :");
+                        Console.Write("Nom du cours :");
                         Console.Write("    ");
-                        int IdCours = int.Parse(Console.ReadLine() ?? "");
+                        string NomCours = (Console.ReadLine() ?? "");
                         Console.Write("    ");
                         Console.Write("Note :");
                         Console.Write("    ");
@@ -167,18 +165,19 @@ namespace Application_wild_student.Menu
                         string Appreciation = Console.ReadLine() ?? "";
                         Console.Write("    ");
 
-                        application.AjouterNotePourEleve(IdEleve, IdCours, Note, Appreciation);
+                        application.AjouterNotePourEleve(IdEleve, NomCours, Note, Appreciation);
 
                     } else if (ChoixMenuEleve == "5")
                     {
                         break;
                     }
-
+                    }
 
 
                 } else if (ChoixMenuPrincipal == "2")
 
                 {
+                    while(ChoixMenuPrincipal == "2") { 
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.WriteLine(GlobalAttribute.wildStudent);
@@ -216,9 +215,10 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
 
                         application.VoirLesCours();
+                        Console.Read();
 
 
-                    } else if (ChoixMenuCours == "2")
+                        } else if (ChoixMenuCours == "2")
                     {
                         Console.Clear();
                         Console.ForegroundColor = ConsoleColor.Cyan;
@@ -230,16 +230,12 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("* COURS");
                         Console.WriteLine("    ");
                         Console.Write("    ");
-                        Console.Write("IDENTIFIANT DU COURS :");
-                        Console.Write("    ");
-                        int IdCours = int.Parse(Console.ReadLine() ?? "");
-                        Console.Write("    ");
                         Console.Write("NOM  :");
                         Console.Write("    ");
                         string NomCours = Console.ReadLine() ?? "";
                         Console.Write("    ");
 
-                        application.AjouterCours(IdCours, NomCours);
+                        application.AjouterCours(NomCours);
 
                     } else if (ChoixMenuCours == "3")
                     {
@@ -260,8 +256,9 @@ namespace Application_wild_student.Menu
 
 
                         application.SupprimerCours(IdCours);
+                        Console.Read();
 
-                    } else if (ChoixMenuCours == "4")
+                        } else if (ChoixMenuCours == "4")
                             {
                         break;
                     } else
@@ -277,10 +274,12 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("    ");
 
                     }
+                    }
 
 
 
-                } else
+                } 
+                else
                 {
 
                     Console.Clear();
@@ -290,15 +289,14 @@ namespace Application_wild_student.Menu
                     Console.WriteLine("                       MENU PRINCIPAL                 ");
                     Console.WriteLine("    ");
                     Console.Write("    ");
-                    Console.WriteLine("Vous avez saissi une mauvaise option");
+                    Console.WriteLine("Vous avez saissi une mauvaise option !");
+                    Console.ReadLine(); 
+                    
                 }
 
-
-
-
-
-                Console.ReadLine();
-                     }
+                
+                
+           }
         }
          
 

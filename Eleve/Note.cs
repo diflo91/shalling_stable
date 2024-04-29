@@ -15,6 +15,11 @@ public class Note
 
     public override string ToString()
     {
-        return $"Cours: {Cours}, Note: {Valeur}, Appréciation: {Appreciation}";
+        string view = $@"
+                                        Cour : {Cours.Nom}, 
+                                        Note : {Valeur}, 
+                                        Appréciation : {Appreciation};
+                        ";
+        return view;
     }
 }
