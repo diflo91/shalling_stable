@@ -20,7 +20,7 @@ namespace Application_wild_student
                                                                                           Developped by Fleury
     ----------------------------------------------------------------------------------------------------------";
 
-        public static string MonCheminJson = "MonFichierJson.json";
+        public static string MonCheminJson = "D:\\Visual studio\\projets\\shalling-avancéMonFichierJson.json";
         public static Dictionary<int, Dictionary<string, string>> ListeDeNote { get; set; }
 
  

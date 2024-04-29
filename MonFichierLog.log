@@ -1,0 +1,378 @@
+2024-04-26 12:06:49.8963 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:06:49.9171 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:06:49.9367 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:06:49.9472 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:06:49.9472 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:06:49.9778 Info Configuration initialized.
+2024-04-26 12:09:58.2343 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:09:58.2343 Info LogFactory has been closed.
+2024-04-26 12:09:59.8553 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:09:59.8708 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:09:59.8997 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:09:59.8997 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:09:59.9215 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:09:59.9407 Info Configuration initialized.
+2024-04-26 12:13:48.1867 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:13:48.1951 Info LogFactory has been closed.
+2024-04-26 12:17:19.4414 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:17:19.4600 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:17:19.4615 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:17:19.4615 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:17:19.4615 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:17:19.4822 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:17:19.4822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:17:19.4969 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:17:19.5083 Info Configuration initialized.
+2024-04-26 12:40:05.3009 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:40:05.3081 Info LogFactory has been closed.
+2024-04-26 12:40:07.1305 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:40:07.1478 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:40:07.1493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:40:07.1493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:40:07.1493 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:40:07.1687 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:40:07.1687 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:40:07.1835 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:40:07.1951 Info Configuration initialized.
+2024-04-26 12:43:49.8695 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:43:49.8695 Info LogFactory has been closed.
+2024-04-26 12:43:51.5464 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:43:51.5711 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:43:51.5879 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:43:51.5879 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:43:51.6014 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:43:51.6014 Info Configuration initialized.
+2024-04-26 12:44:03.5328 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:44:03.5328 Info LogFactory has been closed.
+2024-04-26 12:44:08.6667 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:44:08.6667 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:44:08.6807 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:44:08.6807 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:44:08.6807 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:44:08.7017 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:44:08.7017 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:44:08.7148 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:44:08.7148 Info Configuration initialized.
+2024-04-26 12:44:21.6850 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:44:21.6850 Info LogFactory has been closed.
+2024-04-26 12:44:27.2913 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:44:27.3061 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:44:27.3293 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:44:27.3293 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:44:27.3425 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:44:27.3536 Info Configuration initialized.
+2024-04-26 12:49:02.3260 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:49:02.3260 Info LogFactory has been closed.
+2024-04-26 12:50:45.7792 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:50:45.7912 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:50:45.8160 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:50:45.8242 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:50:45.8242 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:50:45.8410 Info Configuration initialized.
+2024-04-26 12:51:20.0697 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:51:20.0766 Info LogFactory has been closed.
+2024-04-26 12:54:27.0686 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:54:27.0884 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:54:27.1060 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:54:27.1060 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:54:27.1191 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:54:27.1191 Info Configuration initialized.
+2024-04-26 12:54:29.7578 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:54:29.7641 Info LogFactory has been closed.
+2024-04-26 12:54:31.9424 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:54:31.9618 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:54:31.9793 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:54:31.9793 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:54:31.9957 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:54:32.0105 Info Configuration initialized.
+2024-04-26 12:55:06.9499 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:55:06.9499 Info LogFactory has been closed.
+2024-04-26 12:55:34.2094 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:55:34.2248 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:55:34.2262 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:55:34.2262 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:55:34.2262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:55:34.2442 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:55:34.2442 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:55:34.2596 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:55:34.2596 Info Configuration initialized.
+2024-04-26 12:55:56.1097 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:55:56.1097 Info LogFactory has been closed.
+2024-04-26 12:57:18.9340 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:57:18.9480 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:57:18.9680 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:57:18.9680 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:57:18.9819 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:57:18.9931 Info Configuration initialized.
+2024-04-26 12:57:43.2625 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:57:43.2625 Info LogFactory has been closed.
+2024-04-26 12:58:02.8686 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:58:02.8686 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:58:02.8849 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:58:02.8849 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:58:02.8849 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:58:02.9050 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:58:02.9050 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:58:02.9176 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:58:02.9176 Info Configuration initialized.
+2024-04-26 12:58:19.3982 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:58:19.4044 Info LogFactory has been closed.
+2024-04-26 12:59:46.3738 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 12:59:46.3859 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 12:59:46.4065 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 12:59:46.4065 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 12:59:46.4218 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 12:59:46.4322 Info Configuration initialized.
+2024-04-26 12:59:56.4144 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 12:59:56.4209 Info LogFactory has been closed.
+2024-04-26 13:00:16.0098 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:00:16.0240 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:00:16.0485 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:00:16.0585 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:00:16.0585 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:00:16.0753 Info Configuration initialized.
+2024-04-26 13:01:13.3504 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:01:13.3571 Info LogFactory has been closed.
+2024-04-26 13:01:35.9411 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:01:35.9544 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:01:35.9759 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:01:35.9828 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:01:35.9828 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:01:35.9994 Info Configuration initialized.
+2024-04-26 13:02:14.9585 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:02:14.9650 Info LogFactory has been closed.
+2024-04-26 13:04:15.3418 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:04:15.3546 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:04:15.3762 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:04:15.3762 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:04:15.3889 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:04:15.3997 Info Configuration initialized.
+2024-04-26 13:04:35.2788 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:04:35.2788 Info LogFactory has been closed.
+2024-04-26 13:09:32.9439 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:09:32.9634 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:09:32.9787 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:09:32.9787 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:09:32.9941 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:09:32.9941 Info Configuration initialized.
+2024-04-26 13:09:43.0230 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:09:43.0293 Info LogFactory has been closed.
+2024-04-26 13:10:27.3783 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:10:27.3994 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:10:27.4147 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:10:27.4147 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:10:27.4147 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:10:27.4392 Info Configuration initialized.
+2024-04-26 13:10:44.2871 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:10:44.2938 Info LogFactory has been closed.
+2024-04-26 13:12:06.1361 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:12:06.1361 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:12:06.1506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:12:06.1506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:12:06.1506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:12:06.1689 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:12:06.1689 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:12:06.1818 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:12:06.1818 Info Configuration initialized.
+2024-04-26 13:12:21.5992 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:12:21.6053 Info LogFactory has been closed.
+2024-04-26 13:49:24.8871 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 13:49:24.8995 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 13:49:24.9229 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 13:49:24.9229 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 13:49:24.9364 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 13:49:24.9477 Info Configuration initialized.
+2024-04-26 13:50:04.2669 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 13:50:04.2669 Info LogFactory has been closed.
+2024-04-26 16:16:54.2303 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:16:54.2433 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:16:54.2644 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:16:54.2644 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:16:54.2767 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:16:54.2767 Info Configuration initialized.
+2024-04-26 16:19:45.1110 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:19:45.1231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:19:45.1432 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:19:45.1490 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:19:45.1490 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:19:45.1659 Info Configuration initialized.
+2024-04-26 16:20:13.1250 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:20:13.1375 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:20:13.1578 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:20:13.1578 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:20:13.1703 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:20:13.1801 Info Configuration initialized.
+2024-04-26 16:24:17.7878 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:24:17.8049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:24:17.8049 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:24:17.8267 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:24:17.8267 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:24:17.8432 Info Configuration initialized.
+2024-04-26 16:25:03.0752 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:25:03.0867 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:25:03.1058 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:25:03.1058 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:25:03.1179 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:25:03.1179 Info Configuration initialized.
+2024-04-26 16:25:14.5432 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 16:25:14.5432 Info LogFactory has been closed.
+2024-04-26 16:27:25.8960 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:27:25.9085 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:27:25.9293 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:27:25.9365 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:27:25.9365 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:27:25.9543 Info Configuration initialized.
+2024-04-26 16:27:36.9834 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 16:27:36.9834 Info LogFactory has been closed.
+2024-04-26 16:27:50.2093 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:27:50.2263 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:27:50.2263 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:27:50.2467 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:27:50.2467 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:27:50.2629 Info Configuration initialized.
+2024-04-26 16:27:58.6313 Info AppDomain Shutting down. LogFactory closing...
+2024-04-26 16:27:58.6373 Info LogFactory has been closed.
+2024-04-26 16:28:09.2286 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:28:09.2452 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:28:09.2602 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:28:09.2602 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:28:09.2602 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:28:09.2828 Info Configuration initialized.
+2024-04-26 16:41:32.6664 Info Registered target NLog.Targets.FileTarget(Name=file)
+2024-04-26 16:41:32.6664 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
+2024-04-26 16:41:32.6797 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2024-04-26 16:41:32.6797 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
+2024-04-26 16:41:32.6797 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-26 16:41:32.6980 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
+2024-04-26 16:41:32.6980 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
+2024-04-26 16:41:32.6980 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
+   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+2024-04-26 16:41:32.7205 Info Configuration initialized.
