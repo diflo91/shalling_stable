@@ -16,9 +16,9 @@ public class Note
     public override string ToString()
     {
         string view = $@"
-                                        Cour : {Cours.Nom}, 
-                                        Note : {Valeur}, 
-                                        Appréciation : {Appreciation};
+                                        Cour : {Cours.Nom} 
+                                        Note : {Valeur} 
+                                        Appréciation : {Appreciation}
                         ";
         return view;
     }

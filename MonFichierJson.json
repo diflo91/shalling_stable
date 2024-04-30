@@ -1,0 +1,36 @@
+[
+  {
+    "Identifiant": 0,
+    "Nom": "dazd",
+    "Prenom": "zadzad",
+    "DateDeNaissance": "5646654",
+    "ListeCours": [
+      {
+        "Identifiant": 1,
+        "Nom": "math"
+      },
+      {
+        "Identifiant": 0,
+        "Nom": "francais"
+      }
+    ],
+    "ListeNotes": [
+      {
+        "Cours": {
+          "Identifiant": 0,
+          "Nom": "francais"
+        },
+        "Valeur": 10.0,
+        "Appreciation": "bon"
+      },
+      {
+        "Cours": {
+          "Identifiant": 1,
+          "Nom": "math"
+        },
+        "Valeur": 55.0,
+        "Appreciation": "bon"
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-﻿using NLog;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,10 +20,14 @@ namespace Application_wild_student
                                                                                           Developped by Fleury
     ----------------------------------------------------------------------------------------------------------";
 
-        public static string MonCheminJson = "D:\\Visual studio\\projets\\shalling-avancéMonFichierJson.json";
+        public static string MonCheminJson = "D:\\Visual studio\\projets\\shalling-avancé\\MonFichierJson.json";
+        public static string MonCheminJsonCours = "D:\\Visual studio\\projets\\shalling-avancé\\bin\\Debug\\net7.0\\MonFichierJsonCours.json";
         public static Dictionary<int, Dictionary<string, string>> ListeDeNote { get; set; }
+        public static string logFilePath = "D:\\Visual studio\\projets\\shalling-avancé\\MonFichierLog.log";
+        public static Logs logger = new Logs(GlobalAttribute.logFilePath);
 
- 
+
+
 
 
 

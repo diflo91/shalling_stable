@@ -14,7 +14,7 @@ namespace ConsoleApp1
     public class GestionApplication
     {
         private List<Eleve> eleves = new List<Eleve>();
-        private List<Cours> cours = new List<Cours>();
+        public List<Cours> cours = new List<Cours>();
 
 
         public void _ChargerListJson()
@@ -25,6 +25,9 @@ namespace ConsoleApp1
                 string jsonData = File.ReadAllText(GlobalAttribute.MonCheminJson);
                 eleves = JsonConvert.DeserializeObject<List<Eleve>>(jsonData) ?? new List<Eleve>();
 
+                string jsonDataCours = File.ReadAllText(GlobalAttribute.MonCheminJsonCours);
+                cours = JsonConvert.DeserializeObject<List<Cours>>(jsonDataCours) ?? new List<Cours>();
+                GlobalAttribute.logger.WriteLog($"les données ont bien été chargées.");
             }
         }
 
@@ -42,8 +45,9 @@ namespace ConsoleApp1
             Eleve nouvelEleve = new Eleve(identifiant, nom, prenom, dateDeNaissance);
             eleves.Add(nouvelEleve);
 
-            string JsonSave = JsonConvert.SerializeObject(eleves);
+            string JsonSave = JsonConvert.SerializeObject(eleves, Formatting.Indented);
             File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
+            GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté l'élève {nom}.");
         }
 
         
@@ -59,18 +63,19 @@ namespace ConsoleApp1
             Cours nouveauCours = new Cours(identifiant, nom);
             cours.Add(nouveauCours);
 
-            string JsonSave = JsonConvert.SerializeObject(cours);
-            File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
+            string JsonSave = JsonConvert.SerializeObject(cours, Formatting.Indented);
+            File.WriteAllText(GlobalAttribute.MonCheminJsonCours, JsonSave);
+            GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté le cours {nom} .");
 
             Console.WriteLine();
             Console.Write("    ");
             Console.WriteLine($"Cours ajouté : {nouveauCours.Nom}");
 
-        
             foreach (var eleve in eleves)
             {
                 eleve.AjouterCours(nouveauCours);
             }
+
         }
 
   
@@ -85,29 +90,54 @@ namespace ConsoleApp1
                 foreach (var eleve in eleves)
                 {
                     eleve.SupprimerCours(coursASupprimer);
+                   
                 }
-                Console.WriteLine($"Cours supprimé : {coursASupprimer}");
+                string JsonSave = JsonConvert.SerializeObject(cours);
+                File.WriteAllText(GlobalAttribute.MonCheminJsonCours, JsonSave);
+                GlobalAttribute.logger.WriteLog($"L'utilisateur a supprimé le cours {coursASupprimer} .");
+                Console.WriteLine();
+                Console.Write("    ");
+                Console.WriteLine($"Cours supprimé : {coursASupprimer.Nom}");
             }
             else
             {
                 Console.WriteLine($"Cours avec ID {identifiant} non trouvé.");
+
             }
         }
 
-        public void AjouterNotePourEleve(int identifiantEleve, string identifiantCours, double valeur, string appreciation)
+        public void AjouterNotePourEleve(int identifiantEleve, int identifiantCours, double valeur, string appreciation)
         {
             Eleve eleve = eleves.Find(e => e.Identifiant == identifiantEleve);
-            Cours courses = cours.Find(c => c.Nom == identifiantCours);
+            Cours courses = cours.Find(c => c.Identifiant == identifiantCours);
 
             if (eleve != null && cours != null)
             {
                 eleve.AjouterNotePourCours(courses, valeur, appreciation);
-                Console.WriteLine($"Note de {valeur} ajoutée pour l'élève {eleve.Nom} {eleve.Prenom} dans le cours {courses.Nom}.");
+
+                string JsonSave = JsonConvert.SerializeObject(eleves, Formatting.Indented);
+                File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
+                GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté la note pour {courses.Nom} à {eleve.Nom} .");
+
             }
             else
             {
                 Console.WriteLine("Élève ou cours non trouvé.");
             }
+        }
+
+        public bool CheckEleveExist(int identifiantCkeck)
+        {
+
+            Eleve eleve = eleves.Find(e => e.Identifiant == identifiantCkeck);
+            return eleve != null;
+        }
+
+        public bool CheckCoursExist(int identifiantCkeckCours)
+        {
+
+            Cours courses = cours.Find(c => c.Identifiant == identifiantCkeckCours);
+            return courses != null;
         }
 
 
@@ -124,8 +154,6 @@ namespace ConsoleApp1
                 Console.WriteLine($"INFORMATION DE L'ELEVE :");
                 Console.WriteLine("");
                 Console.Write("          ");
-                Console.WriteLine($"IDENTIFIANT         :      {eleve.Identifiant}");
-                Console.Write("          ");
                 Console.WriteLine($"NOM                 :      {eleve.Nom}");
                 Console.Write("          ");
                 Console.WriteLine($"PRENOM              :      {eleve.Prenom}");
@@ -134,23 +162,28 @@ namespace ConsoleApp1
                 Console.WriteLine();
 
                 Console.Write("    ");
-                Console.WriteLine("COURS INSCRITS              :");
-                foreach (var c in eleve.ListeCours)
-                {
-                    Console.Write("                                   ");
-                    Console.WriteLine($"- {c.Nom}");
-                }
+                Console.WriteLine("RESULTATS SCOLAIRE      :");
 
-                Console.Write("    ");
-                Console.WriteLine("NOTES ET APPRECIATIONS      :");
+                double total = 0;
+                int count = 0;
                 foreach (var n in eleve.ListeNotes)
                 {
                     Console.Write("                          ");
                     Console.WriteLine($" {n}");
-                   
-                } 
-                    Console.WriteLine("");
+                    total += n.Valeur;
+                    count++;
+                }
+                
+                double moyenne = Math.Round(total / count);
+
+                Console.WriteLine("");
+                Console.Write("    -----------------------------------------------------------------------------------------------------------");
+                    Console.WriteLine();
+                    Console.Write("    ");
+                    Console.WriteLine($"MOYENNE :  {moyenne }  ");
                     Console.Write("    -----------------------------------------------------------------------------------------------------------");
+
+                    GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté l'élève {eleve.Nom}.");
             }
             else
             {
@@ -168,17 +201,39 @@ namespace ConsoleApp1
                 Console.Write("    ");
                 Console.Write(eleve.Nom);
                 Console.Write("    ");
-                Console.WriteLine(eleve.Prenom); 
+                Console.WriteLine(eleve.Prenom);
                 
+
             }
+            GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté la liste des élève.");
         }
 
         public void VoirLesCours()
         {
+          if (cours.Count != 0) { 
             foreach (var coursItem in cours)
             {
-                Console.WriteLine(coursItem.Nom);
+
+                    Console.Write("    ");
+                    Console.Write(coursItem.Identifiant);
+                    Console.Write("    ");
+                    Console.WriteLine(coursItem.Nom);
+                   
+
+                }
+                 GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté la liste des cours.");
+                } else if ((cours.Count == 0))
+
+                { 
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine();
+                    Console.Write("    ");
+                    Console.WriteLine("Aucun cours n'est disponible !");
+                    Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+
             }
+            
         }
     }
 

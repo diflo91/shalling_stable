@@ -4,7 +4,6 @@ public class Cours
 {
     public int Identifiant { get; set; }
     public string Nom { get; set; }
-    public string Code { get; set; }
 
     public Cours(int identifiant, string nom)
     {

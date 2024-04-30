@@ -35,7 +35,7 @@ public class Eleve
  
     public void AjouterNotePourCours(Cours cours, double valeur, string appreciation)
     {
-  
+   
         if (ListeCours.Contains(cours))
         {
             Note note = new Note(cours, valeur, appreciation);

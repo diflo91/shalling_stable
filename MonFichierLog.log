@@ -1,378 +1,367 @@
-2024-04-26 12:06:49.8963 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:06:49.9115 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:06:49.9171 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:06:49.9367 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:06:49.9472 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:06:49.9472 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:06:49.9778 Info Configuration initialized.
-2024-04-26 12:09:58.2343 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:09:58.2343 Info LogFactory has been closed.
-2024-04-26 12:09:59.8553 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:09:59.8708 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:09:59.8708 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:09:59.8997 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:09:59.8997 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:09:59.9215 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:09:59.9407 Info Configuration initialized.
-2024-04-26 12:13:48.1867 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:13:48.1951 Info LogFactory has been closed.
-2024-04-26 12:17:19.4414 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:17:19.4600 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:17:19.4615 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:17:19.4615 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:17:19.4615 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:17:19.4822 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:17:19.4822 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:17:19.4969 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:17:19.5083 Info Configuration initialized.
-2024-04-26 12:40:05.3009 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:40:05.3081 Info LogFactory has been closed.
-2024-04-26 12:40:07.1305 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:40:07.1478 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:40:07.1493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:40:07.1493 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:40:07.1493 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:40:07.1687 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:40:07.1687 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:40:07.1835 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:40:07.1951 Info Configuration initialized.
-2024-04-26 12:43:49.8695 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:43:49.8695 Info LogFactory has been closed.
-2024-04-26 12:43:51.5464 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:43:51.5653 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:43:51.5711 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:43:51.5879 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:43:51.5879 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:43:51.6014 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:43:51.6014 Info Configuration initialized.
-2024-04-26 12:44:03.5328 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:44:03.5328 Info LogFactory has been closed.
-2024-04-26 12:44:08.6667 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:44:08.6667 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:44:08.6807 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:44:08.6807 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:44:08.6807 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:44:08.7017 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:44:08.7017 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:44:08.7148 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:44:08.7148 Info Configuration initialized.
-2024-04-26 12:44:21.6850 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:44:21.6850 Info LogFactory has been closed.
-2024-04-26 12:44:27.2913 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:44:27.3061 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:44:27.3061 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:44:27.3293 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:44:27.3293 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:44:27.3425 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:44:27.3536 Info Configuration initialized.
-2024-04-26 12:49:02.3260 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:49:02.3260 Info LogFactory has been closed.
-2024-04-26 12:50:45.7792 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:50:45.7912 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:50:45.7912 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:50:45.8160 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:50:45.8242 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:50:45.8242 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:50:45.8410 Info Configuration initialized.
-2024-04-26 12:51:20.0697 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:51:20.0766 Info LogFactory has been closed.
-2024-04-26 12:54:27.0686 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:54:27.0819 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:54:27.0884 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:54:27.1060 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:54:27.1060 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:54:27.1191 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:54:27.1191 Info Configuration initialized.
-2024-04-26 12:54:29.7578 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:54:29.7641 Info LogFactory has been closed.
-2024-04-26 12:54:31.9424 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:54:31.9569 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:54:31.9618 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:54:31.9793 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:54:31.9793 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:54:31.9957 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:54:32.0105 Info Configuration initialized.
-2024-04-26 12:55:06.9499 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:55:06.9499 Info LogFactory has been closed.
-2024-04-26 12:55:34.2094 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:55:34.2248 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:55:34.2262 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:55:34.2262 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:55:34.2262 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:55:34.2442 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:55:34.2442 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:55:34.2596 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:55:34.2596 Info Configuration initialized.
-2024-04-26 12:55:56.1097 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:55:56.1097 Info LogFactory has been closed.
-2024-04-26 12:57:18.9340 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:57:18.9480 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:57:18.9480 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:57:18.9680 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:57:18.9680 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:57:18.9819 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:57:18.9931 Info Configuration initialized.
-2024-04-26 12:57:43.2625 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:57:43.2625 Info LogFactory has been closed.
-2024-04-26 12:58:02.8686 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:58:02.8686 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:58:02.8849 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:58:02.8849 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:58:02.8849 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:58:02.9050 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:58:02.9050 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:58:02.9176 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:58:02.9176 Info Configuration initialized.
-2024-04-26 12:58:19.3982 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:58:19.4044 Info LogFactory has been closed.
-2024-04-26 12:59:46.3738 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 12:59:46.3859 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 12:59:46.3859 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 12:59:46.4065 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 12:59:46.4065 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 12:59:46.4218 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 12:59:46.4322 Info Configuration initialized.
-2024-04-26 12:59:56.4144 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 12:59:56.4209 Info LogFactory has been closed.
-2024-04-26 13:00:16.0098 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:00:16.0240 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:00:16.0240 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:00:16.0485 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:00:16.0585 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:00:16.0585 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:00:16.0753 Info Configuration initialized.
-2024-04-26 13:01:13.3504 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:01:13.3571 Info LogFactory has been closed.
-2024-04-26 13:01:35.9411 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:01:35.9544 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:01:35.9544 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:01:35.9759 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:01:35.9828 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:01:35.9828 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:01:35.9994 Info Configuration initialized.
-2024-04-26 13:02:14.9585 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:02:14.9650 Info LogFactory has been closed.
-2024-04-26 13:04:15.3418 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:04:15.3546 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:04:15.3546 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:04:15.3762 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:04:15.3762 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:04:15.3889 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:04:15.3997 Info Configuration initialized.
-2024-04-26 13:04:35.2788 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:04:35.2788 Info LogFactory has been closed.
-2024-04-26 13:09:32.9439 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:09:32.9573 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:09:32.9634 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:09:32.9787 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:09:32.9787 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:09:32.9941 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:09:32.9941 Info Configuration initialized.
-2024-04-26 13:09:43.0230 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:09:43.0293 Info LogFactory has been closed.
-2024-04-26 13:10:27.3783 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:10:27.3938 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:10:27.3994 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:10:27.4147 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:10:27.4147 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:10:27.4147 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:10:27.4392 Info Configuration initialized.
-2024-04-26 13:10:44.2871 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:10:44.2938 Info LogFactory has been closed.
-2024-04-26 13:12:06.1361 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:12:06.1361 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:12:06.1506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:12:06.1506 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:12:06.1506 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:12:06.1689 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:12:06.1689 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:12:06.1818 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:12:06.1818 Info Configuration initialized.
-2024-04-26 13:12:21.5992 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:12:21.6053 Info LogFactory has been closed.
-2024-04-26 13:49:24.8871 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 13:49:24.8995 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 13:49:24.8995 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 13:49:24.9229 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 13:49:24.9229 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 13:49:24.9364 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 13:49:24.9477 Info Configuration initialized.
-2024-04-26 13:50:04.2669 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 13:50:04.2669 Info LogFactory has been closed.
-2024-04-26 16:16:54.2303 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:16:54.2433 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:16:54.2433 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:16:54.2644 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:16:54.2644 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:16:54.2767 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:16:54.2767 Info Configuration initialized.
-2024-04-26 16:19:45.1110 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:19:45.1231 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:19:45.1231 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:19:45.1432 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:19:45.1490 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:19:45.1490 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:19:45.1659 Info Configuration initialized.
-2024-04-26 16:20:13.1250 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:20:13.1375 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:20:13.1375 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:20:13.1578 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:20:13.1578 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:20:13.1703 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:20:13.1801 Info Configuration initialized.
-2024-04-26 16:24:17.7878 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:24:17.8001 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:24:17.8049 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:24:17.8049 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:24:17.8267 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:24:17.8267 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:24:17.8432 Info Configuration initialized.
-2024-04-26 16:25:03.0752 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:25:03.0867 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:25:03.0867 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:25:03.1058 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:25:03.1058 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:25:03.1179 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:25:03.1179 Info Configuration initialized.
-2024-04-26 16:25:14.5432 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 16:25:14.5432 Info LogFactory has been closed.
-2024-04-26 16:27:25.8960 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:27:25.9085 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:27:25.9085 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:27:25.9293 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:27:25.9365 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:27:25.9365 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:27:25.9543 Info Configuration initialized.
-2024-04-26 16:27:36.9834 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 16:27:36.9834 Info LogFactory has been closed.
-2024-04-26 16:27:50.2093 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:27:50.2216 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:27:50.2263 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:27:50.2263 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:27:50.2467 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:27:50.2467 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:27:50.2629 Info Configuration initialized.
-2024-04-26 16:27:58.6313 Info AppDomain Shutting down. LogFactory closing...
-2024-04-26 16:27:58.6373 Info LogFactory has been closed.
-2024-04-26 16:28:09.2286 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:28:09.2286 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:28:09.2452 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:28:09.2602 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:28:09.2602 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:28:09.2602 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:28:09.2828 Info Configuration initialized.
-2024-04-26 16:41:32.6664 Info Registered target NLog.Targets.FileTarget(Name=file)
-2024-04-26 16:41:32.6664 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: Microsoft.*.
-2024-04-26 16:41:32.6797 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
-2024-04-26 16:41:32.6797 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logconsole' not found for logging rule: *.
-2024-04-26 16:41:32.6797 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
-2024-04-26 16:41:32.6980 Info Validating config: TargetNames=file, ConfigItems=9, FilePath=D:\Visual studio\projets\shalling-avancé\Application_wild_student\bin\Debug\net7.0\NLog.config
-2024-04-26 16:41:32.6980 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: file
-2024-04-26 16:41:32.6980 Warn FileTarget(Name=file): Exception in Initialize Exception: NLog.NLogConfigurationException: Required parameter 'FileName' on 'FileTarget(Name=file)' was not specified.
-   at NLog.Internal.PropertyHelper.CheckRequiredParameters(ConfigurationItemFactory configFactory, Object o)
-   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
-2024-04-26 16:41:32.7205 Info Configuration initialized.
+2024-04-30 17:44:12 - L'application a demarrée.
+2024-04-30 17:44:12 - les données ont bien été chargées.
+2024-04-30 17:44:12 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 17:44:25 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 17:44:26 - L'utilisateur a consulté la liste des élève.
+2024-04-30 17:44:45 - L'utilisateur a ajouté l'élève kimpuni-Kinkela.
+2024-04-30 17:48:00 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 17:48:13 - L'utilisateur a ajouté le cours Mathematique .
+2024-04-30 17:48:18 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 17:48:22 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:48:33 - L'utilisateur a consulté l'élève kimpuni-Kinkela.
+2024-04-30 17:48:54 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:49:08 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:49:14 - L'utilisateur a ajouté la note à kimpuni-Kinkela pour le cours de Mathematique .
+2024-04-30 17:49:25 - L'utilisateur a consulté l'élève kimpuni-Kinkela.
+2024-04-30 17:50:31 - L'application a demarrée.
+2024-04-30 17:50:32 - les données ont bien été chargées.
+2024-04-30 17:50:32 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 17:50:37 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 17:50:39 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:50:50 - L'utilisateur a ajouté le cours Logique .
+2024-04-30 17:50:53 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 17:50:57 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:51:24 - L'utilisateur a ajouté l'élève Kimpuni-Kinkela.
+2024-04-30 17:51:27 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:51:37 - L'utilisateur a ajouté la note à Kimpuni-Kinkela pour le cours de Logique .
+2024-04-30 17:51:42 - L'utilisateur a consulté l'élève Kimpuni-Kinkela.
+2024-04-30 17:52:04 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:52:11 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 17:52:17 - L'utilisateur a ajouté le cours Pat .
+2024-04-30 17:52:20 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 17:52:22 - L'utilisateur a consulté la liste des cours.
+2024-04-30 17:52:34 - L'utilisateur a ajouté la note à Kimpuni-Kinkela pour le cours de Pat .
+2024-04-30 17:52:42 - L'utilisateur a consulté l'élève Kimpuni-Kinkela.
+2024-04-30 17:52:57 - L'application a demarrée.
+2024-04-30 17:53:32 - L'application a demarrée.
+2024-04-30 17:53:32 - les données ont bien été chargées.
+2024-04-30 17:53:32 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 17:54:41 - L'application a demarrée.
+2024-04-30 17:54:42 - les données ont bien été chargées.
+2024-04-30 17:54:42 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 17:54:43 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 17:54:47 - L'utilisateur a ajouté l'élève fdfds.
+2024-04-30 17:55:04 - L'application a demarrée.
+2024-04-30 17:55:04 - les données ont bien été chargées.
+2024-04-30 17:55:04 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:00:20 - L'application a demarrée.
+2024-04-30 18:00:20 - les données ont bien été chargées.
+2024-04-30 18:00:20 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:00:26 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:00:28 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:00:31 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:00:42 - L'utilisateur a ajouté la note à fdfds pour le cours de Mathematique .
+2024-04-30 18:00:47 - L'utilisateur a consulté l'élève fdfds.
+2024-04-30 18:01:02 - L'application a demarrée.
+2024-04-30 18:06:30 - L'application a demarrée.
+2024-04-30 18:06:30 - les données ont bien été chargées.
+2024-04-30 18:06:30 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:06:34 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:06:39 - L'utilisateur a ajouté l'élève dzdz.
+2024-04-30 18:07:01 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:07:09 - L'utilisateur a ajouté la note à dzdz pour le cours de Pat .
+2024-04-30 18:08:53 - L'application a demarrée.
+2024-04-30 18:08:54 - les données ont bien été chargées.
+2024-04-30 18:08:54 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:08:55 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:08:58 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:09:06 - L'utilisateur a ajouté l'élève fdezf.
+2024-04-30 18:09:09 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:09:21 - L'utilisateur a ajouté la note à fdezf pour le cours de Logique .
+2024-04-30 18:09:27 - L'utilisateur a consulté l'élève fdezf.
+2024-04-30 18:11:46 - L'application a demarrée.
+2024-04-30 18:12:18 - L'application a demarrée.
+2024-04-30 18:12:18 - les données ont bien été chargées.
+2024-04-30 18:12:18 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:12:22 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:12:27 - L'utilisateur a ajouté l'élève fdsf.
+2024-04-30 18:12:34 - L'utilisateur a consulté l'élève fdsf.
+2024-04-30 18:12:46 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:12:55 - L'utilisateur a ajouté la note à fdsf pour le cours de Pat .
+2024-04-30 18:12:59 - L'utilisateur a consulté l'élève fdsf.
+2024-04-30 18:15:57 - L'application a demarrée.
+2024-04-30 18:16:20 - L'application a demarrée.
+2024-04-30 18:17:04 - L'application a demarrée.
+2024-04-30 18:17:05 - les données ont bien été chargées.
+2024-04-30 18:17:05 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:17:07 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:17:08 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:17:13 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:17:16 - L'utilisateur a ajouté le cours dsdqs .
+2024-04-30 18:17:21 - L'utilisateur a ajouté le cours dsqdf .
+2024-04-30 18:17:29 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:17:34 - L'utilisateur a ajouté l'élève cqscqsc.
+2024-04-30 18:17:37 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:17:43 - L'utilisateur a consulté l'élève cqscqsc.
+2024-04-30 18:18:10 - L'utilisateur a ajouté la note à cqscqsc pour le cours de dsqdf .
+2024-04-30 18:18:49 - L'application a demarrée.
+2024-04-30 18:18:49 - les données ont bien été chargées.
+2024-04-30 18:18:49 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:18:54 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:18:56 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:19:05 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:19:13 - L'utilisateur a ajouté l'élève fsd.
+2024-04-30 18:19:15 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:19:24 - L'utilisateur a ajouté la note à fsd pour le cours de dsdqs .
+2024-04-30 18:19:29 - L'utilisateur a consulté l'élève fsd.
+2024-04-30 18:21:58 - L'application a demarrée.
+2024-04-30 18:22:12 - L'application a demarrée.
+2024-04-30 18:22:13 - les données ont bien été chargées.
+2024-04-30 18:22:13 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:22:15 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:22:17 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:22:22 - L'utilisateur a ajouté l'élève dazd.
+2024-04-30 18:22:27 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:22:29 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:22:39 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:28:35 - L'application a demarrée.
+2024-04-30 18:28:35 - les données ont bien été chargées.
+2024-04-30 18:28:35 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:28:37 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:28:38 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:29:37 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:29:49 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:31:12 - L'application a demarrée.
+2024-04-30 18:31:12 - les données ont bien été chargées.
+2024-04-30 18:31:12 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:31:14 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:31:15 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:31:19 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:31:22 - L'utilisateur a ajouté le cours sfsfsd .
+2024-04-30 18:31:32 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:31:38 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:31:40 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:31:49 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:33:48 - L'application a demarrée.
+2024-04-30 18:33:48 - les données ont bien été chargées.
+2024-04-30 18:33:48 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:33:51 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:33:52 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:33:56 - L'utilisateur a ajouté le cours gggggg .
+2024-04-30 18:33:59 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:34:17 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:36:45 - L'application a demarrée.
+2024-04-30 18:36:45 - les données ont bien été chargées.
+2024-04-30 18:36:45 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:36:47 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:36:48 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:36:52 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:36:54 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:36:59 - L'utilisateur a ajouté le cours ffffff .
+2024-04-30 18:37:02 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:37:14 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:40:44 - L'application a demarrée.
+2024-04-30 18:40:44 - les données ont bien été chargées.
+2024-04-30 18:40:44 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:40:46 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:40:49 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:52:27 - L'application a demarrée.
+2024-04-30 18:52:27 - les données ont bien été chargées.
+2024-04-30 18:52:27 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:52:33 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:52:34 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:52:39 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:52:42 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:52:46 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:52:52 - L'utilisateur a ajouté la note pour ffffff à dazd .
+2024-04-30 18:52:56 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:52:59 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:53:04 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 18:53:10 - L'utilisateur a ajouté le cours sdsdsdsdsdsds .
+2024-04-30 18:53:14 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:53:15 - L'utilisateur a consulté la liste des élève.
+2024-04-30 18:53:17 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:53:22 - L'utilisateur a consulté la liste des cours.
+2024-04-30 18:53:28 - L'utilisateur a ajouté la note pour sdsdsdsdsdsds à dazd .
+2024-04-30 18:53:31 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:57:22 - L'application a demarrée.
+2024-04-30 18:57:22 - les données ont bien été chargées.
+2024-04-30 18:57:22 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:57:23 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:57:27 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:58:01 - L'application a demarrée.
+2024-04-30 18:58:01 - les données ont bien été chargées.
+2024-04-30 18:58:01 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:58:03 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:58:04 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:58:17 - L'application a demarrée.
+2024-04-30 18:58:17 - les données ont bien été chargées.
+2024-04-30 18:58:17 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:58:18 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:58:20 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:58:25 - L'application a demarrée.
+2024-04-30 18:58:26 - les données ont bien été chargées.
+2024-04-30 18:58:26 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:58:29 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:58:31 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:59:09 - L'application a demarrée.
+2024-04-30 18:59:09 - les données ont bien été chargées.
+2024-04-30 18:59:09 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:59:11 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:59:13 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 18:59:39 - L'application a demarrée.
+2024-04-30 18:59:39 - les données ont bien été chargées.
+2024-04-30 18:59:39 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 18:59:41 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 18:59:43 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:05:26 - L'application a demarrée.
+2024-04-30 19:05:26 - les données ont bien été chargées.
+2024-04-30 19:05:26 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:05:29 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:05:33 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:05:37 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:05:54 - L'utilisateur a ajouté la note pour sdsdsdsdsdsds à dazd .
+2024-04-30 19:06:00 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:06:05 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:06:11 - L'utilisateur a ajouté le cours fdddddddddd .
+2024-04-30 19:06:13 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:06:17 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:06:18 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:06:26 - L'utilisateur a ajouté la note pour fdddddddddd à dazd .
+2024-04-30 19:06:30 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:14:23 - L'application a demarrée.
+2024-04-30 19:14:23 - les données ont bien été chargées.
+2024-04-30 19:14:23 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:14:25 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:14:27 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:14:35 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:14:38 - L'utilisateur a ajouté le cours hhhhhhhhhhhh .
+2024-04-30 19:14:42 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:14:44 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:14:51 - L'utilisateur a ajouté la note pour hhhhhhhhhhhh à dazd .
+2024-04-30 19:14:55 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:17:17 - L'application a demarrée.
+2024-04-30 19:17:17 - les données ont bien été chargées.
+2024-04-30 19:17:17 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:17:19 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:17:21 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:17:26 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:17:29 - L'utilisateur a ajouté le cours gergerger .
+2024-04-30 19:17:33 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:17:35 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:17:42 - L'utilisateur a ajouté la note pour gergerger à dazd .
+2024-04-30 19:17:46 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:19:07 - L'application a demarrée.
+2024-04-30 19:19:07 - les données ont bien été chargées.
+2024-04-30 19:19:07 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:19:09 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:25:22 - L'application a demarrée.
+2024-04-30 19:25:22 - les données ont bien été chargées.
+2024-04-30 19:25:22 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:25:24 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:26:28 - L'application a demarrée.
+2024-04-30 19:26:28 - les données ont bien été chargées.
+2024-04-30 19:26:28 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:26:31 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:26:34 - L'utilisateur a ajouté le cours bhgghjhh .
+2024-04-30 19:26:39 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:26:41 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:26:54 - L'utilisateur a ajouté la note pour bhgghjhh à dazd .
+2024-04-30 19:26:57 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:27:42 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:27:46 - L'utilisateur a ajouté le cours ooooo .
+2024-04-30 19:27:50 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:27:51 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:28:01 - L'utilisateur a ajouté la note pour ooooo à dazd .
+2024-04-30 19:28:05 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:28:32 - L'application a demarrée.
+2024-04-30 19:28:32 - les données ont bien été chargées.
+2024-04-30 19:28:32 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:33:33 - L'application a demarrée.
+2024-04-30 19:33:33 - les données ont bien été chargées.
+2024-04-30 19:33:33 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:33:37 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:33:42 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:33:54 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:33:57 - L'utilisateur a ajouté le cours jjj .
+2024-04-30 19:34:02 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:34:05 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:34:18 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:34:46 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:34:59 - L'utilisateur a ajouté la note pour jjj à dazd .
+2024-04-30 19:35:03 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:51:17 - L'application a demarrée.
+2024-04-30 19:51:17 - les données ont bien été chargées.
+2024-04-30 19:51:17 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:51:19 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 19:51:23 - L'utilisateur a ajouté le cours dfdfdfd .
+2024-04-30 19:51:26 - L'utilisateur a ajouté le cours dfxcxcsdfs .
+2024-04-30 19:51:29 - L'utilisateur a ajouté le cours qdqsfsdfs .
+2024-04-30 19:51:36 - L'utilisateur a ajouté le cours vdxfdsfsd .
+2024-04-30 19:51:40 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:51:42 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:51:57 - L'utilisateur a ajouté la note pour vdxfdsfsd à dazd .
+2024-04-30 19:51:59 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:52:11 - L'utilisateur a ajouté la note pour qdqsfsdfs à dazd .
+2024-04-30 19:52:13 - L'utilisateur a consulté la liste des cours.
+2024-04-30 19:52:20 - L'utilisateur a ajouté la note pour dfxcxcsdfs à dazd .
+2024-04-30 19:52:25 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:54:54 - L'application a demarrée.
+2024-04-30 19:54:55 - les données ont bien été chargées.
+2024-04-30 19:54:55 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 19:54:56 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 19:55:00 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 19:55:37 - L'application a demarrée.
+2024-04-30 19:55:37 - les données ont bien été chargées.
+2024-04-30 19:55:37 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:03:37 - L'application a demarrée.
+2024-04-30 20:03:37 - les données ont bien été chargées.
+2024-04-30 20:03:37 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:03:41 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 20:03:44 - L'utilisateur a ajouté le cours ezfezf .
+2024-04-30 20:03:52 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:03:56 - L'utilisateur a consulté la liste des cours.
+2024-04-30 20:04:10 - L'utilisateur a ajouté la note pour ezfezf à dazd .
+2024-04-30 20:04:12 - L'utilisateur a consulté la liste des cours.
+2024-04-30 20:04:22 - L'utilisateur a ajouté la note pour dfdfdfd à dazd .
+2024-04-30 20:04:27 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:04:56 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:05:12 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:07:42 - L'application a demarrée.
+2024-04-30 20:07:42 - les données ont bien été chargées.
+2024-04-30 20:07:42 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:07:43 - L'utilisateur a accedé au Menu Cours.
+2024-04-30 20:07:49 - L'utilisateur a ajouté le cours math .
+2024-04-30 20:07:54 - L'utilisateur a ajouté le cours francais .
+2024-04-30 20:08:17 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:08:19 - L'utilisateur a consulté la liste des élève.
+2024-04-30 20:08:25 - L'utilisateur a consulté la liste des cours.
+2024-04-30 20:08:32 - L'utilisateur a ajouté la note pour francais à dazd .
+2024-04-30 20:08:34 - L'utilisateur a consulté la liste des cours.
+2024-04-30 20:08:44 - L'utilisateur a ajouté la note pour math à dazd .
+2024-04-30 20:08:47 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:09:21 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:09:27 - L'application a demarrée.
+2024-04-30 20:09:27 - les données ont bien été chargées.
+2024-04-30 20:09:27 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:09:28 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:09:35 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:10:00 - L'application a demarrée.
+2024-04-30 20:10:00 - les données ont bien été chargées.
+2024-04-30 20:10:00 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:10:09 - L'application a demarrée.
+2024-04-30 20:10:10 - les données ont bien été chargées.
+2024-04-30 20:10:10 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:16:16 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:16:20 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:16:49 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:19:45 - L'application a demarrée.
+2024-04-30 20:19:45 - les données ont bien été chargées.
+2024-04-30 20:19:45 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:19:47 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:19:53 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:20:54 - L'application a demarrée.
+2024-04-30 20:20:54 - les données ont bien été chargées.
+2024-04-30 20:20:54 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:20:57 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:21:00 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:22:23 - L'application a demarrée.
+2024-04-30 20:22:24 - les données ont bien été chargées.
+2024-04-30 20:22:24 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:22:25 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:22:31 - L'utilisateur a consulté l'élève dazd.
+2024-04-30 20:45:56 - L'application a demarrée.
+2024-04-30 20:45:56 - les données ont bien été chargées.
+2024-04-30 20:45:56 - L'utilisateur a accedé dans le menu principal.
+2024-04-30 20:45:58 - L'utilisateur a accedé au Menu Eleve.
+2024-04-30 20:46:01 - L'utilisateur a consulté l'élève dazd.
