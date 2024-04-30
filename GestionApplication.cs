@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Application_wild_student
 {
     using Application_wild_student;
     using Newtonsoft.Json;
@@ -16,22 +16,20 @@ namespace ConsoleApp1
         private List<Eleve> eleves = new List<Eleve>();
         public List<Cours> cours = new List<Cours>();
 
+        private List<JsonListStock> Data = new List<JsonListStock>();
 
-        public void _ChargerListJson()
-        {
-            if (File.Exists(GlobalAttribute.MonCheminJson))
+
+       
+            public void LoadDataFromJson()
             {
-
                 string jsonData = File.ReadAllText(GlobalAttribute.MonCheminJson);
-                eleves = JsonConvert.DeserializeObject<List<Eleve>>(jsonData) ?? new List<Eleve>();
+                JsonListStock data = JsonConvert.DeserializeObject<JsonListStock>(jsonData);
+            eleves = data.EleveData;
+            cours = data.CoursData;
 
-                string jsonDataCours = File.ReadAllText(GlobalAttribute.MonCheminJsonCours);
-                cours = JsonConvert.DeserializeObject<List<Cours>>(jsonDataCours) ?? new List<Cours>();
-                GlobalAttribute.logger.WriteLog($"les données ont bien été chargées.");
-            }
+            GlobalAttribute.logger.WriteLog("Les données ont bien été chargées  .");
         }
-
-
+       
         public void AjouterEleve(string nom, string prenom, string dateDeNaissance)
         {
 
@@ -45,7 +43,9 @@ namespace ConsoleApp1
             Eleve nouvelEleve = new Eleve(identifiant, nom, prenom, dateDeNaissance);
             eleves.Add(nouvelEleve);
 
-            string JsonSave = JsonConvert.SerializeObject(eleves, Formatting.Indented);
+            JsonListStock data = new JsonListStock(eleves, cours);
+
+            string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);
             File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
             GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté l'élève {nom}.");
         }
@@ -63,8 +63,10 @@ namespace ConsoleApp1
             Cours nouveauCours = new Cours(identifiant, nom);
             cours.Add(nouveauCours);
 
-            string JsonSave = JsonConvert.SerializeObject(cours, Formatting.Indented);
-            File.WriteAllText(GlobalAttribute.MonCheminJsonCours, JsonSave);
+            JsonListStock data = new JsonListStock(eleves, cours);
+
+            string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);
+            File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
             GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté le cours {nom} .");
 
             Console.WriteLine();
@@ -92,9 +94,12 @@ namespace ConsoleApp1
                     eleve.SupprimerCours(coursASupprimer);
                    
                 }
-                string JsonSave = JsonConvert.SerializeObject(cours);
-                File.WriteAllText(GlobalAttribute.MonCheminJsonCours, JsonSave);
+                JsonListStock data = new JsonListStock(eleves, cours);
+
+                string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);
+                File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
                 GlobalAttribute.logger.WriteLog($"L'utilisateur a supprimé le cours {coursASupprimer} .");
+
                 Console.WriteLine();
                 Console.Write("    ");
                 Console.WriteLine($"Cours supprimé : {coursASupprimer.Nom}");
@@ -115,7 +120,8 @@ namespace ConsoleApp1
             {
                 eleve.AjouterNotePourCours(courses, valeur, appreciation);
 
-                string JsonSave = JsonConvert.SerializeObject(eleves, Formatting.Indented);
+                JsonListStock data = new JsonListStock(eleves, cours);
+                string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);
                 File.WriteAllText(GlobalAttribute.MonCheminJson, JsonSave);
                 GlobalAttribute.logger.WriteLog($"L'utilisateur a ajouté la note pour {courses.Nom} à {eleve.Nom} .");
 
@@ -154,6 +160,8 @@ namespace ConsoleApp1
                 Console.WriteLine($"INFORMATION DE L'ELEVE :");
                 Console.WriteLine("");
                 Console.Write("          ");
+                Console.WriteLine($"IDENTIFIANT         :      {eleve.Identifiant}");
+                Console.Write("          ");
                 Console.WriteLine($"NOM                 :      {eleve.Nom}");
                 Console.Write("          ");
                 Console.WriteLine($"PRENOM              :      {eleve.Prenom}");
@@ -162,7 +170,7 @@ namespace ConsoleApp1
                 Console.WriteLine();
 
                 Console.Write("    ");
-                Console.WriteLine("RESULTATS SCOLAIRE      :");
+                Console.WriteLine("RESULTAT SCOLAIRE      :");
 
                 double total = 0;
                 int count = 0;
@@ -187,7 +195,11 @@ namespace ConsoleApp1
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine();
+                Console.Write("    ");
                 Console.WriteLine($"Aucun élève trouvé avec l'ID {identifiant}.");
+                Console.ResetColor();
             }
         }
 

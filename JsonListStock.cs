@@ -1,22 +1,22 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application_wild_student
 {
     public class JsonListStock
     {
-        private List<Eleve> EleveData { get; set; } = new List<Eleve>();
-        private List<Cours> CoursData { get; set; } = new List<Cours>();
+
+        public List<Eleve> EleveData { get; set; }
+        public List<Cours> CoursData { get; set; }
 
 
-     public JsonListStock(List<Eleve> newEleveData, List<Cours> newCoursData)
+        public JsonListStock(List<Eleve> eleveData, List<Cours> coursData)
         {
-            EleveData = newEleveData;
-            CoursData = newCoursData;
+            EleveData = eleveData ?? new List<Eleve>();
+            CoursData = coursData ?? new List<Cours>();
         }
 
     }
+
 }

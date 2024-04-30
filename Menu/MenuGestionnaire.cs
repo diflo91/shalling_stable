@@ -1,4 +1,4 @@
-﻿using ConsoleApp1;
+﻿
 using System;
 using System.Linq;
 using System.Text;
@@ -14,7 +14,7 @@ namespace Application_wild_student.Menu
         {
             
             GestionApplication application = new GestionApplication();
-            application._ChargerListJson();
+            application.LoadDataFromJson();
 
             GlobalAttribute.logger.WriteLog("L'utilisateur a accedé dans le menu principal.");
 

@@ -17,7 +17,7 @@ public class Note
     {
         string view = $@"
                                         Cour : {Cours.Nom} 
-                                        Note : {Valeur} 
+                                        Note : {Valeur}/20
                                         Appréciation : {Appreciation}
                         ";
         return view;

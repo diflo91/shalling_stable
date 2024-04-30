@@ -1,36 +1,97 @@
-[
-  {
-    "Identifiant": 0,
-    "Nom": "dazd",
-    "Prenom": "zadzad",
-    "DateDeNaissance": "5646654",
-    "ListeCours": [
-      {
-        "Identifiant": 1,
-        "Nom": "math"
-      },
-      {
-        "Identifiant": 0,
-        "Nom": "francais"
-      }
-    ],
-    "ListeNotes": [
-      {
-        "Cours": {
-          "Identifiant": 0,
-          "Nom": "francais"
+{
+  "EleveData": [
+    {
+      "Identifiant": 2,
+      "Nom": "Kimpuni-Kinkela",
+      "Prenom": "Fleury",
+      "DateDeNaissance": "30/12/1994",
+      "ListeCours": [
+        {
+          "Identifiant": 2,
+          "Nom": "Mathematique"
         },
-        "Valeur": 10.0,
-        "Appreciation": "bon"
-      },
-      {
-        "Cours": {
+        {
           "Identifiant": 1,
-          "Nom": "math"
+          "Nom": "Physique"
         },
-        "Valeur": 55.0,
-        "Appreciation": "bon"
-      }
-    ]
-  }
-]
+        {
+          "Identifiant": 0,
+          "Nom": "Geographie"
+        },
+        {
+          "Identifiant": 0,
+          "Nom": "Mathematique"
+        }
+      ],
+      "ListeNotes": [
+        {
+          "Cours": {
+            "Identifiant": 1,
+            "Nom": "Physique"
+          },
+          "Valeur": 10.0,
+          "Appreciation": "Bon eleve"
+        },
+        {
+          "Cours": {
+            "Identifiant": 2,
+            "Nom": "Mathematique"
+          },
+          "Valeur": 55.0,
+          "Appreciation": "Satisfait"
+        }
+      ]
+    },
+    {
+      "Identifiant": 1,
+      "Nom": "Safalani ",
+      "Prenom": "Veronique",
+      "DateDeNaissance": "20/15/1558",
+      "ListeCours": [
+        {
+          "Identifiant": 2,
+          "Nom": "Mathematique"
+        },
+        {
+          "Identifiant": 1,
+          "Nom": "Physique"
+        },
+        {
+          "Identifiant": 0,
+          "Nom": "Geographie"
+        },
+        {
+          "Identifiant": 0,
+          "Nom": "Mathematique"
+        }
+      ],
+      "ListeNotes": []
+    },
+    {
+      "Identifiant": 0,
+      "Nom": "Mulamba",
+      "Prenom": "Rodrick",
+      "DateDeNaissance": "20/15/1991",
+      "ListeCours": [],
+      "ListeNotes": []
+    }
+  ],
+  "CoursData": [
+    {
+      "Identifiant": 3,
+      "Nom": "Physique"
+    },
+    {
+      "Identifiant": 2,
+      "Nom": "Geographie"
+    },
+    {
+      "Identifiant": 1,
+      "Nom": "Mecanique"
+    },
+    {
+      "Identifiant": 0,
+      "Nom": "Mathematique"
+    }
+  ]
+}

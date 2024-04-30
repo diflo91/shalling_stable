@@ -1,7 +1,8 @@
 ﻿using System.Drawing;
 using Application_wild_student.Menu;
-using ConsoleApp1;
-using Newtonsoft.Json;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using static Application_wild_student.GestionApplication;
+
 
 
 namespace Application_wild_student
@@ -52,8 +53,6 @@ namespace Application_wild_student
 
             Console.SetCursorPosition(centerColumn, progressBarRow + 2);
             Console.WriteLine("Chargement terminé !");
-
-
 
             GlobalAttribute.logger.WriteLog("L'application a demarrée.");
             MenuGestionnaire menu = new MenuGestionnaire();
