@@ -22,12 +22,26 @@ namespace Application_wild_student
        
             public void LoadDataFromJson()
             {
+                
                 string jsonData = File.ReadAllText(GlobalAttribute.MonCheminJson);
                 JsonListStock data = JsonConvert.DeserializeObject<JsonListStock>(jsonData);
+
+            if (data != null ) { 
             eleves = data.EleveData;
             cours = data.CoursData;
 
             GlobalAttribute.logger.WriteLog("Les données ont bien été chargées  .");
+            
+            } else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine();
+                Console.Write("    ");
+                Console.WriteLine("Aucune données chargées !");
+                Console.ResetColor();
+                GlobalAttribute.logger.WriteLog("Le fichier Json est vide.");
+
+            }
         }
        
         public void AjouterEleve(string nom, string prenom, string dateDeNaissance)

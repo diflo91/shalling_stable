@@ -83,7 +83,7 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("    ");
 
                         application.VoirLesEleves();
-                        Console.Read();
+                        Console.ReadLine();
                            
 
                         } else if (ChoixMenuEleve == "2")
@@ -118,7 +118,7 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("    ");
                         Console.WriteLine("                       LA CREATION DE L'ELEVE AVEC SUCCES              ");
                         Console.WriteLine("    ");
-                        Console.Read();
+                        Console.ReadLine();
 
                         } else if (ChoixMenuEleve == "3")
                     {
@@ -134,12 +134,24 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
                         Console.Write("Identifiant eleve :");
                         Console.Write("    ");
-                        int IdEleve = int.Parse(Console.ReadLine() ?? "");
+                        string IdEleve = Console.ReadLine();
                         Console.Write("    ");
 
-                        application.AfficherEleve(IdEleve);
-                            
-                            Console.Read();
+                            if (IdEleve == "")
+                            {
+                                Console.ForegroundColor = ConsoleColor.Red;
+                                Console.WriteLine();
+                                Console.Write("    ");
+                                Console.WriteLine("Erreur de saisie !");
+                                Console.ResetColor();
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.ReadLine();
+                            }
+                            else if (IdEleve != "")
+                            {
+                            application.AfficherEleve(int.Parse(IdEleve));
+                            Console.ReadLine();
+                            }
 
                         } else if(ChoixMenuEleve == "4") 
                     {
@@ -170,6 +182,7 @@ namespace Application_wild_student.Menu
                                 int IdEleve;
                                 bool isValideEleve = int.TryParse(IdEleveTry, out IdEleve);
 
+                              
 
                                  if (isValideEleve) {
 
@@ -192,7 +205,8 @@ namespace Application_wild_student.Menu
 
                                             if (CoursExist)
                                             {
-
+                                                
+                                               
                                                 Console.Write("    ");
                                                 Console.Write("Note :");
                                                 Console.Write("    ");
@@ -224,8 +238,7 @@ namespace Application_wild_student.Menu
                                                     Console.ResetColor();
                                                     Console.ForegroundColor = ConsoleColor.Cyan;
                                                     Console.ReadLine();
-                                                        NoteSaisi = Console.ReadLine() ?? "";
-                                                        isValideNote = double.TryParse(NoteSaisi, out Note);
+                                                        
                                                    // }
                                                 }
                                             }
@@ -284,7 +297,21 @@ namespace Application_wild_student.Menu
                     } else if (ChoixMenuEleve == "5")
                     {
                         break;
-                    }
+                    } else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine();
+                            Console.Write("    ");
+                            Console.WriteLine("Erreur de saisie !");
+                            Console.ResetColor();
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.ReadLine();
+                        }
+
+
+
+
+
                     }
 
 
@@ -329,7 +356,7 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("    ");
 
                         application.VoirLesCours();
-                        Console.Read();
+                        Console.ReadLine();
 
 
                         } else if (ChoixMenuCours == "2")
@@ -390,7 +417,7 @@ namespace Application_wild_student.Menu
                                  if (choixConfirm.ToLower() == "oui")
                                 {
                                          application.SupprimerCours(IdCours);
-                                         Console.Read();
+                                         Console.ReadLine();
 
                                 } else if (choixConfirm.ToLower() == "non")
                                 {
@@ -399,7 +426,7 @@ namespace Application_wild_student.Menu
                                     Console.Write("   ");
                                     Console.WriteLine("Vous avez abandonné !");
                                     Console.ResetColor();
-                                    Console.Read();
+                                    Console.ReadLine();
                                 }
                             } else if (IdCoursStr == "")
                             {
@@ -408,10 +435,8 @@ namespace Application_wild_student.Menu
                                 Console.Write("    ");
                                 Console.WriteLine("Vous avez abandonné !");
                                 Console.ResetColor (); 
-                                Console.Read();
+                                Console.ReadLine();
                             }
-
-                        
 
                         } else if (ChoixMenuCours == "4")
                             {
@@ -425,8 +450,11 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("                       ERREUR               ");
                         Console.WriteLine("    ");
                         Console.Write("    ");
-                        Console.WriteLine("Choisissez le bon menu");
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Choisissez le bon menu");
+                            Console.ResetColor();
                         Console.WriteLine("    ");
+                        Console.ReadLine();
 
                     }
                     }
@@ -441,7 +469,9 @@ namespace Application_wild_student.Menu
                     Console.WriteLine("                       MENU PRINCIPAL                 ");
                     Console.WriteLine("    ");
                     Console.Write("    ");
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Vous avez saissi une mauvaise option !");
+                    Console.ResetColor();   
                     Console.ReadLine(); 
                     
                 }   

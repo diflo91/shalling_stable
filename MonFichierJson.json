@@ -1,97 +1,27 @@
 {
   "EleveData": [
     {
-      "Identifiant": 2,
-      "Nom": "Kimpuni-Kinkela",
-      "Prenom": "Fleury",
-      "DateDeNaissance": "30/12/1994",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "Mathematique"
-        },
-        {
-          "Identifiant": 1,
-          "Nom": "Physique"
-        },
-        {
-          "Identifiant": 0,
-          "Nom": "Geographie"
-        },
-        {
-          "Identifiant": 0,
-          "Nom": "Mathematique"
-        }
-      ],
-      "ListeNotes": [
-        {
-          "Cours": {
-            "Identifiant": 1,
-            "Nom": "Physique"
-          },
-          "Valeur": 10.0,
-          "Appreciation": "Bon eleve"
-        },
-        {
-          "Cours": {
-            "Identifiant": 2,
-            "Nom": "Mathematique"
-          },
-          "Valeur": 55.0,
-          "Appreciation": "Satisfait"
-        }
-      ]
-    },
-    {
-      "Identifiant": 1,
-      "Nom": "Safalani ",
-      "Prenom": "Veronique",
-      "DateDeNaissance": "20/15/1558",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "Mathematique"
-        },
-        {
-          "Identifiant": 1,
-          "Nom": "Physique"
-        },
-        {
-          "Identifiant": 0,
-          "Nom": "Geographie"
-        },
-        {
-          "Identifiant": 0,
-          "Nom": "Mathematique"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
       "Identifiant": 0,
-      "Nom": "Mulamba",
-      "Prenom": "Rodrick",
-      "DateDeNaissance": "20/15/1991",
-      "ListeCours": [],
+      "Nom": "",
+      "Prenom": "",
+      "DateDeNaissance": "",
+      "ListeCours": [
+        {
+          "Identifiant": 1,
+          "Nom": "dfgdfgdf"
+        }
+      ],
       "ListeNotes": []
     }
   ],
   "CoursData": [
     {
-      "Identifiant": 3,
-      "Nom": "Physique"
-    },
-    {
       "Identifiant": 2,
-      "Nom": "Geographie"
+      "Nom": "ghjgj"
     },
     {
       "Identifiant": 1,
-      "Nom": "Mecanique"
-    },
-    {
-      "Identifiant": 0,
-      "Nom": "Mathematique"
+      "Nom": "dfgdfgdf"
     }
   ]
 }

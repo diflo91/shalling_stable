@@ -17,7 +17,7 @@ public class Logs
             using (StreamWriter sw = new StreamWriter(logFilePath, true))
             {
        
-                sw.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}");
+                sw.WriteLine($"{DateTime.Now:dd-MM-yyyy HH:mm:ss} - {message}");
             }
         }
         catch (Exception ex)
