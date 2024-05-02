@@ -129,11 +129,6 @@ namespace Application_wild_student
                     }
                 }
 
-
-
-
-
-
                 JsonListStock data = new JsonListStock(eleves, cours);
 
                 string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);
@@ -142,7 +137,9 @@ namespace Application_wild_student
 
                 Console.WriteLine();
                 Console.Write("    ");
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"Cours supprimé : {coursASupprimer.Nom}");
+                Console.ResetColor();
             }
             else
             {

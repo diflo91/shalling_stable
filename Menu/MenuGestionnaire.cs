@@ -105,16 +105,167 @@ namespace Application_wild_student.Menu
                         Console.Write("    ");
                         string PrenomEleve = Console.ReadLine()?? "";
                         Console.Write("    ");
-                        Console.Write("Date de naissance :");
-                        Console.Write("    ");
-                        string DateEleve = Console.ReadLine() ?? "";
 
+
+                            
+                            bool dateValide = false;
+                            bool moisValide = false;
+                            bool yearValide = false;
+                            string Day;
+                            string Mois;
+                            string Year;
+                            
+                            int DayAsInt;
+                            int MoisAsInt;
+                            int YearAsInt;
+
+                            
+                            do {
+
+                                Console.Write("Date de naissance :");
+                                Console.Write("    ");
+
+                                ConsoleKeyInfo keyDate_1 = Console.ReadKey();
+                                ConsoleKeyInfo keyDate_2 = Console.ReadKey();
+
+                                Day = (keyDate_1.KeyChar.ToString()) + (keyDate_2.KeyChar.ToString());
+
+                                    if (int.TryParse(Day, out DayAsInt))
+                                    {
+
+                                        if (DayAsInt >= 1 && DayAsInt <= 31)
+                                        {
+                                            dateValide = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine();
+                                            Console.Write("   ");
+                                            Console.ForegroundColor = ConsoleColor.Red;
+                                            Console.WriteLine(" Le jour doit être compris entre 1 et 31 ! ");
+                                            Console.ResetColor(); Console.Write("    ");
+                                            Console.ForegroundColor = ConsoleColor.Cyan;
+                                        }
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.Write("   ");
+                                        Console.ForegroundColor = ConsoleColor.Red;
+                                        Console.WriteLine(" Entrer une date valide");
+                                        Console.ResetColor(); Console.Write("    ");
+                                        Console.ForegroundColor = ConsoleColor.Cyan;
+                                    }
+                                
+                            } while (!dateValide);
+
+
+                                Console.Write("/");
+
+
+                                do
+                                {
+
+                                    ConsoleKeyInfo keyMois_1 = Console.ReadKey();
+                                    ConsoleKeyInfo keyMois_2 = Console.ReadKey();
+                                    Mois = (keyMois_1.KeyChar.ToString()) + (keyMois_2.KeyChar.ToString());
+
+                                    if (int.TryParse(Mois, out MoisAsInt))
+                                    {
+
+                                        if (MoisAsInt >= 1 && MoisAsInt <= 12)
+                                        {
+                                            moisValide = true;
+                                        }
+                                        else
+                                        {
+
+                                            Console.WriteLine();
+                                            Console.Write("   ");
+                                            Console.ForegroundColor = ConsoleColor.Red;
+                                            Console.WriteLine(" Le Mois doit être compris entre 1 et 12 ! ");
+                                            Console.ResetColor(); Console.Write("    ");
+                                            Console.ForegroundColor = ConsoleColor.Cyan;
+                                            Console.Write($"Date de naissance :  {Day}/");
+                                        }
+
+
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.Write("   ");
+                                        Console.ForegroundColor = ConsoleColor.Red;
+                                        Console.WriteLine(" Entrer un Mois valide");
+                                        Console.ResetColor(); Console.Write("    ");
+                                        Console.ForegroundColor = ConsoleColor.Cyan;
+                                        Console.Write($"Date de naissance :  {Day}/");
+                                    }
+                                
+                            } while (!moisValide);
+
+
+
+                            Console.Write("/");
+
+
+                                do
+                                {
+
+
+                                    ConsoleKeyInfo keyAnnee_1 = Console.ReadKey();
+                                    ConsoleKeyInfo keyAnnee_2 = Console.ReadKey();
+                                    ConsoleKeyInfo keyAnnee_3 = Console.ReadKey();
+                                    ConsoleKeyInfo keyAnnee_4 = Console.ReadKey();
+                                    Console.Write(".");
+
+                                    Year = (keyAnnee_1.KeyChar.ToString()) + (keyAnnee_2.KeyChar.ToString()) + (keyAnnee_3.KeyChar.ToString()) + (keyAnnee_4.KeyChar.ToString());
+                                    DateTime YearToNow = DateTime.Now;
+                                    int YearToNowAsInt = YearToNow.Year;
+
+                                    if (int.TryParse(Year, out YearAsInt))
+                                    {
+
+
+                                        if (YearAsInt <= YearToNowAsInt)
+                                        {
+                                            yearValide = true;
+                                        }
+                                        else
+                                        {
+
+                                            Console.WriteLine();
+                                            Console.Write("   ");
+                                            Console.ForegroundColor = ConsoleColor.Red;
+                                            Console.WriteLine($" Vous n'ête pas un alien, l'année doit etre inferieure à l'année courante {YearToNow} ! ");
+                                            Console.ResetColor(); Console.Write("    ");
+                                            Console.ForegroundColor = ConsoleColor.Cyan;
+                                            Console.Write($"Date de naissance :  {Day}/{Mois}/");
+                                        }
+
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine();
+                                        Console.Write("   ");
+                                        Console.ForegroundColor = ConsoleColor.Red;
+                                        Console.WriteLine(" Entrer une année valide");
+                                        Console.ResetColor(); Console.Write("    ");
+                                        Console.ForegroundColor = ConsoleColor.Cyan;
+                                        Console.Write($"Date de naissance :  {Day}/{Mois}/");
+                                    }
+                            } while (!yearValide);
+
+
+                        string DateEleve = Day+"/"+Mois+"/"+Year;
                         application.AjouterEleve(NomEleve, PrenomEleve, DateEleve);
                             
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("    ");
                         Console.Write("    ");
-                        Console.WriteLine("La création de l'élève avec succès              ");
+                            Console.WriteLine("    ");
+                            Console.Write("    ");
+                            Console.WriteLine("La création de l'élève avec succès              ");
                         Console.WriteLine("    ");
                         Console.ReadLine();
 
@@ -201,16 +352,10 @@ namespace Application_wild_student.Menu
                                         {
                                             bool CoursExist = application.CheckCoursExist(IdCours);
                                             bool CoursDansEleve = application.IsCoursExistInEleve(IdEleve, IdCours);
-
-
-
-
                                             if (CoursExist)
                                             {
-
                                                 if (CoursDansEleve == false)
                                                 {
-
                                                     while (true)
                                                     {
                                                         Console.Write("    ");
@@ -250,10 +395,6 @@ namespace Application_wild_student.Menu
 
                                                             Eleve ResultEleve = application.CheckEleveName(IdEleve);
                                                             Cours ResultCours = application.CheckCoursName(IdCours);
-
-
-
-
 
                                                             Console.Clear();
                                                             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -409,11 +550,6 @@ namespace Application_wild_student.Menu
                             Console.ForegroundColor = ConsoleColor.Cyan;
                             Console.ReadLine();
                         }
-
-
-
-
-
                     }
 
 
@@ -552,7 +688,7 @@ namespace Application_wild_student.Menu
                             Console.WriteLine("Choisissez le bon menu");
                             Console.ResetColor();
                         Console.WriteLine("    ");
-                        Console.ReadLine();
+                             Console.ReadLine();
 
                     }
                     }
@@ -563,11 +699,11 @@ namespace Application_wild_student.Menu
                     Console.WriteLine("    ");
                     Console.Write("    ");
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Vous avez saissi une mauvaise option !");
-                    Console.ResetColor();   
-                    Console.ReadLine(); 
+                    Console.Write("Vous avez saissi une mauvaise option !");
+                    Console.ResetColor();
+                    ChoixMenuPrincipal =  Console.ReadLine();
                     
-                }   
+              }   
            }
         }
          
