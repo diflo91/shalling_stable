@@ -18,7 +18,9 @@ namespace Application_wild_student
     ███████║██║  ██║██║  ██║███████╗███████╗██║██║ ╚████║╚██████╔╝
     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ 
                                                                                           Developped by Fleury
-    ----------------------------------------------------------------------------------------------------------";
+    ██████████████████████████████████████████████████████████████████████████████████████████████████████████
+
+";
 
         public static string MonCheminJson = "D:\\Visual studio\\projets\\shalling-avancé\\MonFichierJson.json";
         public static string logFilePath = "D:\\Visual studio\\projets\\shalling-avancé\\MonFichierLog.log";

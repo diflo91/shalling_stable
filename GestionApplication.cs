@@ -51,7 +51,7 @@ namespace Application_wild_student
             int identifiant = 0;
             foreach (Eleve eleve in eleves)
             {
-                identifiant = eleve.Identifiant++;
+                identifiant = eleve.Identifiant+1;
             }
 
             Eleve nouvelEleve = new Eleve(identifiant, nom, prenom, dateDeNaissance);
@@ -199,11 +199,11 @@ namespace Application_wild_student
                 double moyenne = Math.Round(total / count);
 
                 Console.WriteLine("");
-                Console.Write("    -----------------------------------------------------------------------------------------------------------");
+                Console.Write("    ██████████████████████████████████████████████████████████████████████████████████████████████████████████");
                     Console.WriteLine();
                     Console.Write("    ");
                     Console.WriteLine($"MOYENNE :  {moyenne }  ");
-                    Console.Write("    -----------------------------------------------------------------------------------------------------------");
+                    Console.Write("    ███████████████████████████████████████████████████████████████████████████████████████████████████████████");
 
                     GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté l'élève {eleve.Nom}.");
             }

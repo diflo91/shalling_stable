@@ -2,26 +2,31 @@
   "EleveData": [
     {
       "Identifiant": 0,
-      "Nom": "",
-      "Prenom": "",
-      "DateDeNaissance": "",
+      "Nom": "kimpuni-kinkela",
+      "Prenom": "Fleury",
+      "DateDeNaissance": "21/02/1889",
       "ListeCours": [
         {
-          "Identifiant": 1,
-          "Nom": "dfgdfgdf"
+          "Identifiant": 0,
+          "Nom": "Mathematique"
         }
       ],
-      "ListeNotes": []
+      "ListeNotes": [
+        {
+          "Cours": {
+            "Identifiant": 0,
+            "Nom": "Mathematique"
+          },
+          "Valeur": 10.0,
+          "Appreciation": "Bon eleve"
+        }
+      ]
     }
   ],
   "CoursData": [
     {
-      "Identifiant": 2,
-      "Nom": "ghjgj"
-    },
-    {
-      "Identifiant": 1,
-      "Nom": "dfgdfgdf"
+      "Identifiant": 0,
+      "Nom": "Mathematique"
     }
   ]
 }
