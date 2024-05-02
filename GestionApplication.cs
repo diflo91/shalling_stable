@@ -88,7 +88,8 @@ namespace Application_wild_student
             Console.WriteLine($"Cours ajouté : {nouveauCours.Nom}");
 
             foreach (var eleve in eleves)
-            {
+            {              
+
                 eleve.AjouterCours(nouveauCours);
             }
 
@@ -97,9 +98,12 @@ namespace Application_wild_student
   
         public void SupprimerCours(int identifiant)
         {
+            int identifiants = identifiant;
             Cours coursASupprimer = cours.Find(c => c.Identifiant == identifiant);
+            
             if (coursASupprimer != null)
             {
+
                 cours.Remove(coursASupprimer);
 
            
@@ -108,6 +112,28 @@ namespace Application_wild_student
                     eleve.SupprimerCours(coursASupprimer);
                    
                 }
+
+
+                foreach (Eleve eleve in eleves)
+                {
+                    
+                    eleve.ListeCours = eleve.ListeCours
+                        .Where(cours => cours.Identifiant != identifiant)
+                        .ToList();
+
+                    foreach (var note in eleve.ListeNotes)
+                    {
+                        if (note.Cours.Identifiant == identifiant)
+                        {
+                        }
+                    }
+                }
+
+
+
+
+
+
                 JsonListStock data = new JsonListStock(eleves, cours);
 
                 string JsonSave = JsonConvert.SerializeObject(data, Formatting.Indented);

@@ -111,11 +111,10 @@ namespace Application_wild_student.Menu
 
                         application.AjouterEleve(NomEleve, PrenomEleve, DateEleve);
                             
-                            Console.Clear();
-                        Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.WriteLine(GlobalAttribute.wildStudent);
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("    ");
-                        Console.WriteLine("                       LA CREATION DE L'ELEVE AVEC SUCCES              ");
+                        Console.Write("    ");
+                        Console.WriteLine("La création de l'élève avec succès              ");
                         Console.WriteLine("    ");
                         Console.ReadLine();
 
