@@ -71,7 +71,7 @@ namespace Application_wild_student
             int identifiant = 0;
             foreach (Cours courses in cours)
             {
-                identifiant = courses.Identifiant++;
+                identifiant = courses.Identifiant+1;
             }
 
             Cours nouveauCours = new Cours(identifiant, nom);
@@ -146,6 +146,59 @@ namespace Application_wild_student
             }
         }
 
+        public bool IsCoursExistInEleve(int idEleve, int idCours)
+        {
+            foreach (Eleve eleve in eleves)
+            {
+                if (eleve.Identifiant == idEleve)
+                {
+                    foreach (Note note in eleve.ListeNotes)
+                    {
+                        if (note.Cours.Identifiant == idCours)
+                        {
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+
+
+
+
+        public Eleve CheckEleveName(int identifiantCkeck)
+        {
+            Eleve NomEleve = null;
+
+            foreach (Eleve eleve in eleves)
+            {
+                if (eleve.Identifiant == identifiantCkeck)
+                {
+                    NomEleve = eleve;
+                    return NomEleve;
+                }
+            }
+            return NomEleve;
+        }
+
+        public Cours CheckCoursName(int identifiantCkeckCours)
+        {
+            Cours NomCours = null;
+
+            foreach (Cours cours in cours)
+            {
+                if (cours.Identifiant == identifiantCkeckCours)
+                {
+                    NomCours = cours;
+                    return NomCours;
+                }
+            }
+            return NomCours;
+
+        }
+
+
         public bool CheckEleveExist(int identifiantCkeck)
         {
 
@@ -200,10 +253,12 @@ namespace Application_wild_student
 
                 Console.WriteLine("");
                 Console.Write("    ██████████████████████████████████████████████████████████████████████████████████████████████████████████");
-                    Console.WriteLine();
-                    Console.Write("    ");
-                    Console.WriteLine($"MOYENNE :  {moyenne }  ");
-                    Console.Write("    ███████████████████████████████████████████████████████████████████████████████████████████████████████████");
+                Console.WriteLine(); 
+                Console.WriteLine();
+                Console.Write("    ");
+                Console.WriteLine($"MOYENNE :  {moyenne }  ");
+                Console.WriteLine();
+                Console.Write("    ██████████████████████████████████████████████████████████████████████████████████████████████████████████");
 
                     GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté l'élève {eleve.Nom}.");
             }
@@ -257,6 +312,7 @@ namespace Application_wild_student
                     Console.WriteLine("Aucun cours n'est disponible !");
                     Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Cyan;
+
 
             }
             

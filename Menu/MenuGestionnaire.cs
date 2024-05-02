@@ -16,11 +16,10 @@ namespace Application_wild_student.Menu
             GestionApplication application = new GestionApplication();
             application.LoadDataFromJson();
 
+
             GlobalAttribute.logger.WriteLog("L'utilisateur a accedé dans le menu principal.");
 
             while (true) { 
-
-            
 
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -202,58 +201,161 @@ namespace Application_wild_student.Menu
                                         if (isCoursValide)
                                         {
                                             bool CoursExist = application.CheckCoursExist(IdCours);
+                                            bool CoursDansEleve = application.IsCoursExistInEleve(IdEleve, IdCours);
+
+
+
 
                                             if (CoursExist)
                                             {
-                                                
-                                               
-                                                Console.Write("    ");
-                                                Console.Write("Note :");
-                                                Console.Write("    ");
 
-                                                string NoteSaisi = Console.ReadLine() ?? "";
-                                                double Note;
-                                                bool isValideNote = double.TryParse(NoteSaisi, out Note);
-
-
-                                                if (isValideNote)
+                                                if (CoursDansEleve == false)
                                                 {
 
-                                                    Console.Write("    ");
-                                                    Console.Write("Appreciation :");
-                                                    Console.Write("    ");
-                                                    string Appreciation = Console.ReadLine() ?? "";
-                                                    Console.Write("    ");
+                                                    while (true)
+                                                    {
+                                                        Console.Write("    ");
+                                                        Console.Write("Note :");
+                                                        Console.Write("    ");
+
+                                                        string NoteSaisi = Console.ReadLine() ?? "";
+                                                        double Note;
+                                                        bool isValideNote = double.TryParse(NoteSaisi, out Note);
 
 
-                                                    application.AjouterNotePourEleve(IdEleve, IdCours, Note, Appreciation);
-                                                }
-                                                else if (!isValideNote)
+                                                        if (!isValideNote)
+                                                        {
+
+                                                            Console.Clear();
+                                                            //while (!isValideNote) { 
+                                                            Console.WriteLine(GlobalAttribute.wildStudent);
+                                                            Console.ForegroundColor = ConsoleColor.Red;
+                                                            Console.WriteLine();
+                                                            Console.Write("    ");
+                                                            Console.WriteLine("La note est obligatoire !");
+                                                            Console.WriteLine();
+                                                            Console.ResetColor();
+                                                            Console.ForegroundColor = ConsoleColor.Cyan;
+
+
+                                                            // }  
+                                                        }
+                                                        else if (isValideNote)
+                                                        {
+                                                            Console.Write("    ");
+                                                            Console.Write("Appreciation :");
+                                                            Console.Write("    ");
+                                                            string Appreciation = Console.ReadLine() ?? "";
+                                                            Console.Write("    ");
+
+
+                                                            Eleve ResultEleve = application.CheckEleveName(IdEleve);
+                                                            Cours ResultCours = application.CheckCoursName(IdCours);
+
+
+
+
+
+                                                            Console.Clear();
+                                                            Console.ForegroundColor = ConsoleColor.Cyan;
+                                                            Console.WriteLine(GlobalAttribute.wildStudent);
+                                                            Console.WriteLine("");
+                                                            Console.Write("    ");
+                                                            Console.WriteLine($" RECAPITILATIF : ");
+                                                            Console.WriteLine("");
+                                                            Console.Write("          ");
+                                                            Console.WriteLine($"IDENTIFIANT         :    {ResultEleve.Identifiant}     ");
+                                                            Console.Write("          ");
+                                                            Console.WriteLine($"NOM                 :    {ResultEleve.Nom}  ");
+                                                            Console.Write("          ");
+                                                            Console.WriteLine($"PRENOM              :    {ResultEleve.Prenom} ");
+                                                            Console.WriteLine("    ");
+                                                            Console.Write("          ");
+                                                            Console.WriteLine($"COURS AJOUTEE       :    {ResultCours.Identifiant} | {ResultCours.Nom} ");
+                                                            Console.WriteLine();
+                                                            Console.Write("    ");
+                                                            Console.WriteLine($"NOTE              : {Note} ");
+                                                            Console.WriteLine("");
+                                                            Console.Write("    ");
+                                                            Console.WriteLine($"APPRECIATION      : {Appreciation} ");
+                                                            Console.WriteLine("");
+                                                            Console.WriteLine();
+                                                            Console.WriteLine("    ██████████████████████████████████████████████████████████████████████████████████████████████████████████");
+                                                            
+                                                            Console.ForegroundColor= ConsoleColor.Red;
+                                                            Console.WriteLine(" ");
+                                                            Console.Write("   ");
+                                                            
+                                                            Console.Write(" Confirmez-vous cette action ? ");
+                                                            Console.ResetColor();
+                                                          //  Console.ForegroundColor = ConsoleColor.Yellow;
+                                                            Console.Write("Oui ");
+                                                            
+                                                            Console.ForegroundColor = ConsoleColor.Red;
+                                                            Console.Write("ou ");
+                                                            Console.ResetColor();
+                                                           // Console.ForegroundColor = ConsoleColor.Green;
+                                                            Console.Write("Non ");
+                                                            Console.ResetColor();
+
+                                                            Console.Write(" :   ");
+                                                            string input = Console.ReadLine();
+                                                            
+                                                            if ( input.ToLower() == "oui" )
+                                                            { 
+                                                            application.AjouterNotePourEleve(IdEleve, IdCours, Note, Appreciation);
+                                                                Console.WriteLine(" ");
+                                                                Console.ForegroundColor = ConsoleColor.Green;
+                                                                Console.WriteLine();
+                                                                Console.Write("    ");
+                                                                Console.WriteLine("La note ajoutée !");
+                                                                Console.ResetColor();
+                                                                Console.ReadLine();
+                                                                break;
+                                                                
+
+                                                            } else
+                                                            {
+                                                                
+                                                                Console.WriteLine(" ");
+                                                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                                                Console.WriteLine();
+                                                                Console.Write("    ");
+                                                                Console.WriteLine("Vous avez abandonné !");
+                                                                Console.ResetColor();
+                                                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                                                Console.ReadLine();
+                                                                break;
+
+                                                            }
+                                                        }
+                                                    }
+                                                } else if (CoursDansEleve == true)
                                                 {
-                                                    //while (!isValideNote) { 
                                                     Console.ForegroundColor = ConsoleColor.Red;
                                                     Console.WriteLine();
                                                     Console.Write("    ");
-                                                    Console.WriteLine(" La note est obligatoire !");
+                                                    Console.WriteLine("Cet élève dispose déjà de ce cours !");
                                                     Console.ResetColor();
                                                     Console.ForegroundColor = ConsoleColor.Cyan;
                                                     Console.ReadLine();
-                                                        
-                                                   // }
+
+                                                }
+
+
+                                                }
+                                                else if (!CoursExist)
+                                                {
+
+                                                    Console.ForegroundColor = ConsoleColor.Red;
+                                                    Console.WriteLine();
+                                                    Console.Write("    ");
+                                                    Console.WriteLine("Ce Cours n'existe pas !");
+                                                    Console.ResetColor();
+                                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                                    Console.ReadLine();
                                                 }
                                             }
-                                            else if (!CoursExist)
-                                            {
-
-                                                Console.ForegroundColor = ConsoleColor.Red;
-                                                Console.WriteLine();
-                                                Console.Write("    ");
-                                                Console.WriteLine("Ce Cours n'existe pas !");
-                                                Console.ResetColor();
-                                                Console.ForegroundColor = ConsoleColor.Cyan;
-                                                Console.ReadLine();
-                                            }
-                                        }
                                             else if (!isCoursValide)
                                             {
                                                 Console.ForegroundColor = ConsoleColor.Red;
@@ -264,7 +366,8 @@ namespace Application_wild_student.Menu
                                                 Console.ForegroundColor = ConsoleColor.Cyan;
                                                 Console.ReadLine();
                                             }
-                                        
+                                       
+
                                     } else if (!EleveExist)
                                     {
                                         Console.ForegroundColor = ConsoleColor.Red;
@@ -282,7 +385,7 @@ namespace Application_wild_student.Menu
                                     Console.ForegroundColor = ConsoleColor.Red;
                                     Console.WriteLine();
                                     Console.Write("    ");
-                                    Console.WriteLine("Erreur de saisie !");
+                                    Console.WriteLine("Choisissez le bon Menu !");
                                     Console.ResetColor();
                                     Console.ForegroundColor = ConsoleColor.Cyan;
                                     Console.ReadLine();
@@ -443,11 +546,7 @@ namespace Application_wild_student.Menu
                         break;
                     } else
                     {
-                        Console.Clear();
-                        Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.WriteLine(GlobalAttribute.wildStudent);
-                        Console.Write("    ");
-                        Console.WriteLine("                       ERREUR               ");
+                        
                         Console.WriteLine("    ");
                         Console.Write("    ");
                             Console.ForegroundColor = ConsoleColor.Red;
@@ -462,11 +561,6 @@ namespace Application_wild_student.Menu
                 else
                 {
 
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.Cyan;
-                    Console.WriteLine(GlobalAttribute.wildStudent);
-                    Console.Write("    ");
-                    Console.WriteLine("                       MENU PRINCIPAL                 ");
                     Console.WriteLine("    ");
                     Console.Write("    ");
                     Console.ForegroundColor = ConsoleColor.Red;

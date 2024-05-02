@@ -17,6 +17,21 @@ namespace Application_wild_student
             CoursData = coursData ?? new List<Cours>();
         }
 
+
+public bool _RetourEleve(string eleve)
+    {
+            string DataEleve = "";
+            foreach(var  eleveData in EleveData)
+            {
+                DataEleve = eleveData.Nom;
+                
+            }
+
+               bool Result = DataEleve.Contains(eleve);
+        return Result;
     }
 
+    }
+
+     
 }

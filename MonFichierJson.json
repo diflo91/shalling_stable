@@ -2,13 +2,17 @@
   "EleveData": [
     {
       "Identifiant": 0,
-      "Nom": "kimpuni-kinkela",
+      "Nom": "Kimpuni-Kinkela",
       "Prenom": "Fleury",
-      "DateDeNaissance": "21/02/1889",
+      "DateDeNaissance": "12/04/1998",
       "ListeCours": [
         {
-          "Identifiant": 0,
-          "Nom": "Mathematique"
+          "Identifiant": 2,
+          "Nom": "Football"
+        },
+        {
+          "Identifiant": 3,
+          "Nom": "Html"
         }
       ],
       "ListeNotes": [
@@ -19,14 +23,83 @@
           },
           "Valeur": 10.0,
           "Appreciation": "Bon eleve"
+        },
+        {
+          "Cours": {
+            "Identifiant": 1,
+            "Nom": "Phylosophie"
+          },
+          "Valeur": 20.0,
+          "Appreciation": "Bon etudiant"
+        },
+        {
+          "Cours": {
+            "Identifiant": 2,
+            "Nom": "Football"
+          },
+          "Valeur": 50.0,
+          "Appreciation": "Tres bien "
+        },
+        {
+          "Cours": {
+            "Identifiant": 3,
+            "Nom": "Html"
+          },
+          "Valeur": 42.0,
+          "Appreciation": "Fait un effort "
+        },
+        {
+          "Cours": {
+            "Identifiant": 5,
+            "Nom": "CSS"
+          },
+          "Valeur": 10.0,
+          "Appreciation": ""
         }
       ]
+    },
+    {
+      "Identifiant": 1,
+      "Nom": "Safalani ",
+      "Prenom": "Veronique",
+      "DateDeNaissance": "15/01/1889",
+      "ListeCours": [
+        {
+          "Identifiant": 2,
+          "Nom": "Football"
+        },
+        {
+          "Identifiant": 3,
+          "Nom": "Html"
+        }
+      ],
+      "ListeNotes": []
     }
   ],
   "CoursData": [
     {
       "Identifiant": 0,
       "Nom": "Mathematique"
+    },
+    {
+      "Identifiant": 1,
+      "Nom": "Phylosophie"
+    },
+    {
+      "Identifiant": 2,
+      "Nom": "Football"
+    },
+    {
+      "Identifiant": 3,
+      "Nom": "Html"
+    },
+    {
+      "Identifiant": 4,
+      "Nom": "Java"
+    },
+    {
+      "Identifiant": 5,
+      "Nom": "CSS"
     }
   ]
 }

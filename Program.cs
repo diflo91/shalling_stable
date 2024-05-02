@@ -12,6 +12,10 @@ namespace Application_wild_student
     {
         static async Task Main(string[] args)
         {
+
+            
+
+            
             GlobalAttribute.logger.WriteLog("Chargement ...");
 
             char fillChar = '█';

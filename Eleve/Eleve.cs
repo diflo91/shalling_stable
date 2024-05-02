@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application_wild_student;
+using System;
 using System.Collections.Generic;
 
 public class Eleve
@@ -20,12 +21,12 @@ public class Eleve
 
     public void AjouterCours(Cours cours)
     {
-        if (!ListeCours.Contains(cours))
-        {
+        
+        
             ListeCours.Add(cours);
-        }
+        
     }
-
+    
     public void SupprimerCours(Cours cours)
     {
         ListeCours.Remove(cours);
@@ -36,15 +37,10 @@ public class Eleve
     public void AjouterNotePourCours(Cours cours, double valeur, string appreciation)
     {
    
-        if (ListeCours.Contains(cours))
-        {
+      
             Note note = new Note(cours, valeur, appreciation);
             ListeNotes.Add(note);
-        }
-        else
-        {
-            Console.WriteLine($"L'élève n'est pas inscrit au cours {cours.Nom}.");
-        }
+     
     }
 
     public override string ToString()
