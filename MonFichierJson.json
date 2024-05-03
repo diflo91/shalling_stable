@@ -2,114 +2,59 @@
   "EleveData": [
     {
       "Identifiant": 0,
-      "Nom": "Kimpuni",
-      "Prenom": "Fleury",
-      "DateDeNaissance": "12/05/1998",
+      "Nom": "kimpuni",
+      "Prenom": "fleury",
+      "DateDeNaissance": "12/12/1995",
       "Promotion": "2010-2014",
-      "ListeCours": [],
-      "ListeNotes": [
+      "ListeCours": [
         {
-          "Cours": {
-            "Identifiant": 0,
-            "Nom": "Mathematique"
-          },
-          "Valeur": 10.0,
-          "Appreciation": "Bon eleve"
-        },
-        {
-          "Cours": {
-            "Identifiant": 4,
-            "Nom": "Dessin industriel"
-          },
-          "Valeur": 20.0,
-          "Appreciation": "Bon eleve"
+          "Identifiant": 1,
+          "Nom": "Physique"
         }
-      ]
+      ],
+      "ListeNotes": []
     },
     {
       "Identifiant": 1,
-      "Nom": "Safalani",
-      "Prenom": "Veronique",
-      "DateDeNaissance": "05/04/1998",
+      "Nom": "paul",
+      "Prenom": "martin",
+      "DateDeNaissance": "12/12/1998",
       "Promotion": "2014-2018",
       "ListeCours": [],
       "ListeNotes": [
         {
           "Cours": {
-            "Identifiant": 2,
-            "Nom": "Francais"
+            "Identifiant": 1,
+            "Nom": "Physique"
           },
           "Valeur": 10.0,
-          "Appreciation": "Bon"
+          "Appreciation": "bon"
         }
       ]
     },
     {
       "Identifiant": 2,
-      "Nom": "Mapiala",
-      "Prenom": "Bodes",
-      "DateDeNaissance": "04/08/1555",
-      "Promotion": "2018-2022",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 3,
-      "Nom": "Mulungo",
-      "Prenom": "Bodrick",
-      "DateDeNaissance": "14/04/1655",
-      "Promotion": "2010-2014",
+      "Nom": "lulu",
+      "Prenom": "pol",
+      "DateDeNaissance": "12/12/2024",
+      "Promotion": "2014-2018",
       "ListeCours": [],
       "ListeNotes": [
         {
           "Cours": {
-            "Identifiant": 0,
-            "Nom": "Mathematique"
+            "Identifiant": 1,
+            "Nom": "Physique"
           },
-          "Valeur": 50.0,
-          "Appreciation": "Bon eleve"
+          "Valeur": 90.0,
+          "Appreciation": "bon"
         }
       ]
-    },
-    {
-      "Identifiant": 4,
-      "Nom": "Galolo",
-      "Prenom": "Horiche",
-      "DateDeNaissance": "07/05/1945",
-      "Promotion": "2014-2018",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 5,
-      "Nom": "Jolilo",
-      "Prenom": "Fabrice",
-      "DateDeNaissance": "16/02/1989",
-      "Promotion": "2018-2022",
-      "ListeCours": [],
-      "ListeNotes": []
     }
   ],
   "CoursData": [
     {
-      "Identifiant": 0,
-      "Nom": "Mathematique"
-    },
-    {
       "Identifiant": 1,
-      "Nom": "Logique"
-    },
-    {
-      "Identifiant": 2,
-      "Nom": "Francais"
-    },
-    {
-      "Identifiant": 3,
-      "Nom": "Mecanique"
-    },
-    {
-      "Identifiant": 4,
-      "Nom": "Dessin industriel"
+      "Nom": "Physique"
     }
   ]
 }

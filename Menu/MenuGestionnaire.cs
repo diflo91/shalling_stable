@@ -1,6 +1,7 @@
 ﻿
 using System;
 using System.Linq;
+using System.Runtime.InteropServices.ObjectiveC;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -639,7 +640,18 @@ namespace Application_wild_student.Menu
                         Console.WriteLine("    ");
 
                         application.VoirLesCours();
-                        Console.ReadLine();
+
+                            Console.WriteLine("    ");
+                            Console.WriteLine("                       MOYENNE PAR PROMOTION               ");
+                            Console.WriteLine("    ");
+                            Console.Write("    ");
+                            Console.WriteLine($@"2010-2014                                2014-2018                                 2018-2022 ");
+                            Console.Write("    ");
+                            Console.WriteLine();
+                            Console.Write("    ");
+
+                            Console.WriteLine($"{application.VoirLesCours_2()} :                            {application.VoirLesCours_2()} :                            {application.VoirLesCours_2()}");
+                            Console.ReadLine();
 
 
                         } else if (ChoixMenuCours == "2")

@@ -14,8 +14,6 @@ namespace Application_wild_student
         {
 
             
-
-           /*
             GlobalAttribute.logger.WriteLog("Chargement ...");
 
             char fillChar = '█';
@@ -83,7 +81,7 @@ namespace Application_wild_student
 
  
                 await Task.Delay(delay);
-            }*/
+            }
             
 
             GlobalAttribute.logger.WriteLog("L'application a démarrée.");

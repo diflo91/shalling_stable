@@ -333,6 +333,39 @@ namespace Application_wild_student
             } 
         }
 
+
+
+        public string VoirLesCours_2()
+        {
+            string coursItemR = "";
+            if (cours.Count != 0)
+            {
+                foreach (var coursItem in cours)
+                {
+                   
+                    coursItemR = coursItem.Nom;
+                    return coursItemR;
+                }
+                GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté la liste des cours.");
+            }
+            else if ((cours.Count == 0))
+
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine();
+                Console.Write("    ");
+                Console.WriteLine("Aucun cours n'est disponible !");
+                Console.ResetColor();
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                
+                return coursItemR;
+            }
+            return coursItemR;
+        }
+
+
+
+
         public void _ListerPromotion(string promotion)
         {
            foreach(var prom in eleves)
