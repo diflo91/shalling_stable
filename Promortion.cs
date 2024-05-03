@@ -34,6 +34,5 @@ namespace Application_wild_student
             }
         }
 
-
     }
 }

@@ -60,7 +60,16 @@
       "DateDeNaissance": "14/04/1655",
       "Promotion": "2010-2014",
       "ListeCours": [],
-      "ListeNotes": []
+      "ListeNotes": [
+        {
+          "Cours": {
+            "Identifiant": 0,
+            "Nom": "Mathematique"
+          },
+          "Valeur": 50.0,
+          "Appreciation": "Bon eleve"
+        }
+      ]
     },
     {
       "Identifiant": 4,

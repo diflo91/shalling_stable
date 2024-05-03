@@ -19,7 +19,7 @@ namespace Application_wild_student.Menu
             GestionApplication application = new GestionApplication();
             application.LoadDataFromJson();
 
-
+           
             GlobalAttribute.logger.WriteLog("L'utilisateur a accedé dans le menu principal.");
 
             while (true) { 
@@ -774,7 +774,7 @@ namespace Application_wild_student.Menu
                                 Console.WriteLine("                        PROMOTION               ");
                                 Console.WriteLine("    ");
                                 Console.Write("    ");
-                                Console.WriteLine("[1] LISTER LA PROMOTION 2010 - 2014 ");
+                                Console.WriteLine("[1] LISTER PROMOTION 2010 - 2014 ");
                                 Console.Write("    ");
                                 Console.WriteLine("[2] MOYENNE PROMOTION 2010 - 2014 ");
                                 Console.Write("    ");
@@ -802,8 +802,11 @@ namespace Application_wild_student.Menu
                                     Console.WriteLine(GlobalAttribute.wildStudent);
                                     Console.Write("    ");
                                     Console.WriteLine("                       MOYENNE PROMOTION 2010-2014               ");
-                                    Console.WriteLine("    ");
-                                    Console.Write("    ");
+
+                                    Console.WriteLine("");
+                                    application.MoyenneCoursResult("2010-2014");
+                                      
+
                                     Console.ReadLine();
                                 } else if (optionChoice_1 == "3")
                                 {
@@ -833,7 +836,7 @@ namespace Application_wild_student.Menu
                                 Console.WriteLine("                       PROMOTION               ");
                                 Console.WriteLine("    ");
                                 Console.Write("    ");
-                                Console.WriteLine("[1] LISTER LA PROMOTION 2014 - 2018 ");
+                                Console.WriteLine("[1] LISTE PROMOTION 2014 - 2018 ");
                                 Console.Write("    ");
                                 Console.WriteLine("[2] MOYENNE PROMOTION 2014 - 2018 ");
                                 Console.Write("    ");
@@ -862,8 +865,9 @@ namespace Application_wild_student.Menu
                                     Console.Write("    ");
                                     Console.WriteLine("                       MOYENNE PROMOTION 2014-2018               ");
                                     Console.WriteLine("");
+                                    application.MoyenneCoursResult("2014-2018");
 
-                                    Console.Write("    ");
+
                                     Console.ReadLine();
                                 }
                                 else if (optionChoice_2 == "3")
@@ -891,7 +895,7 @@ namespace Application_wild_student.Menu
                                 Console.WriteLine("                       PROMOTION               ");
                                 Console.WriteLine("    ");
                                 Console.Write("    ");
-                                Console.WriteLine("[1] LISTER LA PROMOTION 2018 - 2022 ");
+                                Console.WriteLine("[1] LISTER PROMOTION 2018 - 2022 ");
                                 Console.Write("    ");
                                 Console.WriteLine("[2] MOYENNE PROMOTION 2018 - 2022 ");
                                 Console.Write("    ");
@@ -921,7 +925,9 @@ namespace Application_wild_student.Menu
                                     Console.WriteLine(GlobalAttribute.wildStudent);
                                     Console.Write("    ");
                                     Console.WriteLine("                       MOYENNE PROMOTION 2018-2022               ");
-                                    Console.WriteLine("    ");
+                                    Console.WriteLine("");
+                                    application.MoyenneCoursResult("2018-2022");
+
 
                                     Console.ReadLine();
                                 }

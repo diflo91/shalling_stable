@@ -299,15 +299,12 @@ namespace Application_wild_student
         {
             foreach (var eleve in eleves)
             { 
-               
                 Console.Write("    ");
                 Console.Write(eleve.Identifiant);
                 Console.Write("    ");
                 Console.Write(eleve.Nom);
                 Console.Write("    ");
                 Console.WriteLine(eleve.Prenom);
-                
-
             }
             GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté la liste des élève.");
         }
@@ -317,13 +314,11 @@ namespace Application_wild_student
           if (cours.Count != 0) { 
             foreach (var coursItem in cours)
             {
-
                     Console.Write("    ");
                     Console.Write(coursItem.Identifiant);
                     Console.Write("    ");
                     Console.WriteLine(coursItem.Nom);
                    
-
                 }
                  GlobalAttribute.logger.WriteLog($"L'utilisateur a consulté la liste des cours.");
                 } else if ((cours.Count == 0))
@@ -335,10 +330,7 @@ namespace Application_wild_student
                     Console.WriteLine("Aucun cours n'est disponible !");
                     Console.ResetColor();
                 Console.ForegroundColor = ConsoleColor.Cyan;
-
-
-            }
-            
+            } 
         }
 
         public void _ListerPromotion(string promotion)
@@ -352,6 +344,50 @@ namespace Application_wild_student
  
                 }
             }
+        }
+
+
+        public double MoyenneCoursProm(string promotion, string cours)
+        {
+
+            double totalM = 0;
+            int count = 0;
+            foreach (var promotionI in eleves)
+            {
+                if (promotionI.Promotion == promotion)
+                {
+                    foreach(Note note in promotionI.ListeNotes)
+                    {
+
+                        if(note.Cours.Nom == cours) { 
+
+                        totalM += note.Valeur;
+                        count++;
+                        }
+                    }
+                }
+            }
+             double moyenneP = Math.Round(totalM/count);
+             return moyenneP;
+        }
+       
+        public void MoyenneCoursResult(string promot)
+        {
+            
+            double Moyenne = 0;
+
+            if (cours.Count != 0)
+            {
+                foreach (var coursItem in cours)
+                {
+
+                    Console.Write("    ");
+                    Console.WriteLine($"{coursItem.Nom} : {this.MoyenneCoursProm(promot, coursItem.Nom)}");
+                   
+
+                }
+            }
+
         }
 
 
