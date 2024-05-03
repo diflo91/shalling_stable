@@ -44,7 +44,7 @@ namespace Application_wild_student
             }
         }
        
-        public void AjouterEleve(string nom, string prenom, string dateDeNaissance)
+        public void AjouterEleve(string nom, string prenom, string dateDeNaissance, string promotion)
         {
 
            
@@ -54,7 +54,7 @@ namespace Application_wild_student
                 identifiant = eleve.Identifiant+1;
             }
 
-            Eleve nouvelEleve = new Eleve(identifiant, nom, prenom, dateDeNaissance);
+            Eleve nouvelEleve = new Eleve(identifiant, nom, prenom, dateDeNaissance, promotion);
             eleves.Add(nouvelEleve);
 
             JsonListStock data = new JsonListStock(eleves, cours);
@@ -340,6 +340,22 @@ namespace Application_wild_student
             }
             
         }
+
+        public void _ListerPromotion(string promotion)
+        {
+           foreach(var prom in eleves)
+            {
+                if (prom.Promotion == promotion)
+                {
+                    Console.Write("    ");
+                    Console.WriteLine($"{prom.Nom}  {prom.Prenom} => {prom.DateDeNaissance}");
+ 
+                }
+            }
+        }
+
+
+
     }
 
 }

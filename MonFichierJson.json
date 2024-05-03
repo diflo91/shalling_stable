@@ -2,367 +2,81 @@
   "EleveData": [
     {
       "Identifiant": 0,
-      "Nom": "Safalani",
-      "Prenom": "Veronique",
-      "DateDeNaissance": "330/12/1998",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
+      "Nom": "Kimpuni",
+      "Prenom": "Fleury",
+      "DateDeNaissance": "12/05/1998",
+      "Promotion": "2010-2014",
+      "ListeCours": [],
       "ListeNotes": [
         {
           "Cours": {
-            "Identifiant": 3,
-            "Nom": "Logique"
+            "Identifiant": 0,
+            "Nom": "Mathematique"
           },
           "Valeur": 10.0,
-          "Appreciation": "bon"
+          "Appreciation": "Bon eleve"
+        },
+        {
+          "Cours": {
+            "Identifiant": 4,
+            "Nom": "Dessin industriel"
+          },
+          "Valeur": 20.0,
+          "Appreciation": "Bon eleve"
         }
       ]
     },
     {
       "Identifiant": 1,
-      "Nom": "Kimpuni",
-      "Prenom": "Fleury",
-      "DateDeNaissance": "21/08/1889",
-      "ListeCours": [
+      "Nom": "Safalani",
+      "Prenom": "Veronique",
+      "DateDeNaissance": "05/04/1998",
+      "Promotion": "2014-2018",
+      "ListeCours": [],
+      "ListeNotes": [
         {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
+          "Cours": {
+            "Identifiant": 2,
+            "Nom": "Francais"
+          },
+          "Valeur": 10.0,
+          "Appreciation": "Bon"
         }
-      ],
-      "ListeNotes": []
+      ]
     },
     {
       "Identifiant": 2,
-      "Nom": "5456",
-      "Prenom": "464",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
+      "Nom": "Mapiala",
+      "Prenom": "Bodes",
+      "DateDeNaissance": "04/08/1555",
+      "Promotion": "2018-2022",
+      "ListeCours": [],
       "ListeNotes": []
     },
     {
       "Identifiant": 3,
-      "Nom": "fdsf",
-      "Prenom": "sdfsd",
-      "DateDeNaissance": "0",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
+      "Nom": "Mulungo",
+      "Prenom": "Bodrick",
+      "DateDeNaissance": "14/04/1655",
+      "Promotion": "2010-2014",
+      "ListeCours": [],
       "ListeNotes": []
     },
     {
       "Identifiant": 4,
-      "Nom": "454",
-      "Prenom": "545",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
+      "Nom": "Galolo",
+      "Prenom": "Horiche",
+      "DateDeNaissance": "07/05/1945",
+      "Promotion": "2014-2018",
+      "ListeCours": [],
       "ListeNotes": []
     },
     {
       "Identifiant": 5,
-      "Nom": "55",
-      "Prenom": "55",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 6,
-      "Nom": "54",
-      "Prenom": "54",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 7,
-      "Nom": "545",
-      "Prenom": "464",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 0,
-          "Nom": "554"
-        },
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 8,
-      "Nom": "566",
-      "Prenom": "565",
-      "DateDeNaissance": "",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 9,
-      "Nom": "54",
-      "Prenom": "56",
-      "DateDeNaissance": "257/26/52",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 10,
-      "Nom": "jnhgj",
-      "Prenom": "ghjnghj",
-      "DateDeNaissance": "97/16/32",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 11,
-      "Nom": "5454",
-      "Prenom": "454",
-      "DateDeNaissance": "106/105/211",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 12,
-      "Nom": "ooooo",
-      "Prenom": "oooo",
-      "DateDeNaissance": "99/99/197",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 13,
-      "Nom": "4252522454",
-      "Prenom": "54544",
-      "DateDeNaissance": "12/12/1211",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 14,
-      "Nom": "5454",
-      "Prenom": "54454",
-      "DateDeNaissance": "58/58/5858",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 15,
-      "Nom": "4554",
-      "Prenom": "55",
-      "DateDeNaissance": "58/\b\b/\b\b\b\b",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 16,
-      "Nom": "484",
-      "Prenom": "445485",
-      "DateDeNaissance": "15/12/\b\b\b\b",
-      "ListeCours": [
-        {
-          "Identifiant": 2,
-          "Nom": "445"
-        }
-      ],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 17,
-      "Nom": "545",
-      "Prenom": "5545",
-      "DateDeNaissance": "15/25/2233",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 18,
-      "Nom": "44",
-      "Prenom": "45454",
-      "DateDeNaissance": "\r5/8\r/\r\r\r\r",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 19,
-      "Nom": "485454",
-      "Prenom": "4545",
-      "DateDeNaissance": "12/11/2545",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 20,
-      "Nom": "4545",
-      "Prenom": "5455",
-      "DateDeNaissance": "12/01/1998",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 21,
-      "Nom": "44",
-      "Prenom": "4646",
-      "DateDeNaissance": "12/12/2024",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 22,
-      "Nom": "45454",
-      "Prenom": "54545",
-      "DateDeNaissance": "12/\r1/21\r\r",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 23,
-      "Nom": "454",
-      "Prenom": "554",
-      "DateDeNaissance": "12/12/2024",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 24,
-      "Nom": "44",
-      "Prenom": "5454",
-      "DateDeNaissance": "05/12/2024",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 25,
-      "Nom": "44",
-      "Prenom": "5454",
-      "DateDeNaissance": "12/\r1/12\r\r",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 26,
-      "Nom": "f'",
-      "Prenom": "fzefze",
-      "DateDeNaissance": "12/12/1212",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 27,
-      "Nom": "sdgfsdg",
-      "Prenom": "sdgfsd",
-      "DateDeNaissance": "\r1/12/4\r\r\r",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 28,
-      "Nom": "hj",
-      "Prenom": "gj",
-      "DateDeNaissance": "15/12/2024",
-      "ListeCours": [],
-      "ListeNotes": []
-    },
-    {
-      "Identifiant": 29,
-      "Nom": "bhj",
-      "Prenom": "hikh",
-      "DateDeNaissance": "12/12/2024",
+      "Nom": "Jolilo",
+      "Prenom": "Fabrice",
+      "DateDeNaissance": "16/02/1989",
+      "Promotion": "2018-2022",
       "ListeCours": [],
       "ListeNotes": []
     }
@@ -370,15 +84,23 @@
   "CoursData": [
     {
       "Identifiant": 0,
-      "Nom": "554"
+      "Nom": "Mathematique"
     },
     {
       "Identifiant": 1,
-      "Nom": "4545"
+      "Nom": "Logique"
     },
     {
       "Identifiant": 2,
-      "Nom": "445"
+      "Nom": "Francais"
+    },
+    {
+      "Identifiant": 3,
+      "Nom": "Mecanique"
+    },
+    {
+      "Identifiant": 4,
+      "Nom": "Dessin industriel"
     }
   ]
 }

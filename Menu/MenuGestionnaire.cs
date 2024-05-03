@@ -13,6 +13,9 @@ namespace Application_wild_student.Menu
         public void _MenuMngt()
         {
             
+
+            
+
             GestionApplication application = new GestionApplication();
             application.LoadDataFromJson();
 
@@ -34,6 +37,8 @@ namespace Application_wild_student.Menu
                 Console.WriteLine("[1] ELEVE");
                 Console.Write("    ");
                 Console.WriteLine("[2] COURS");
+                Console.Write("    ");
+                Console.WriteLine("[3] PROMOTIONS");
                 Console.WriteLine("    ");
                 Console.Write("    ");
                 string ChoixMenuPrincipal = Console.ReadLine() ?? "";
@@ -258,13 +263,53 @@ namespace Application_wild_student.Menu
 
 
                         string DateEleve = Day+"/"+Mois+"/"+Year;
-                        application.AjouterEleve(NomEleve, PrenomEleve, DateEleve);
-                            
+                            Console.WriteLine(" ");
+                            Console.WriteLine("");
+                            Console.Write("    ");
+                            Console.WriteLine("LISTE DES PROMOTIONS");
+                            Console.WriteLine(" ");
+                            Promortion promortion = new Promortion();
+                            promortion.CheckPromo();
+
+
+                            Console.WriteLine();
+                            Console.Write("    ");
+                            Console.Write("Promotion :");
+                            Console.Write("    ");
+                              
+                            string PromotionEleve = Console.ReadLine() ?? "";
+                            bool outW = false;
+
+                            do {
+
+                                if (PromotionEleve == "2010-2014" || PromotionEleve == "2014-2018" || PromotionEleve == "2018-2022")
+                                {
+
+                                    application.AjouterEleve(NomEleve, PrenomEleve, DateEleve, PromotionEleve);
+                                    outW = true;
+                                } else
+                                {
+                                    Console.Write("    ");
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.WriteLine("La promotion n'existe pas");
+                                    Console.ResetColor();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.Write("    ");
+                                    Console.Write("Promotion :");
+                                    Console.Write("    ");
+
+                                    PromotionEleve = Console.ReadLine() ?? "";
+                                    if (PromotionEleve == "2010-2014" || PromotionEleve == "2014-2018" || PromotionEleve == "2018-2022")
+                                    {
+                                        outW = true;
+                                    }
+                                    }
+
+                            } while (!outW);
+
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("    ");
                         Console.Write("    ");
-                            Console.WriteLine("    ");
-                            Console.Write("    ");
                             Console.WriteLine("La création de l'élève avec succès              ");
                         Console.WriteLine("    ");
                         Console.ReadLine();
@@ -692,7 +737,226 @@ namespace Application_wild_student.Menu
 
                     }
                     }
-                } 
+                } else if (ChoixMenuPrincipal == "3")
+                {
+                    while (true)
+                    {
+
+
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine(GlobalAttribute.wildStudent);
+                        Console.Write("    ");
+                        Console.WriteLine("                       MENU PROMOTION               ");
+                        Console.WriteLine("    ");
+                        Console.Write("    ");
+                        Console.WriteLine("[1] 2010 - 2014 ");
+                        Console.Write("    ");
+                        Console.WriteLine("[2] 2014 - 2018 ");
+                        Console.Write("    ");
+                        Console.WriteLine("[3] 2018 - 2022 ");
+                        Console.Write("    ");
+                        Console.WriteLine("[4] RETOUR ");
+
+                        string PromotionChoix = "";
+                        Console.Write("    ");
+                        PromotionChoix = Console.ReadLine();
+
+                        if (PromotionChoix == "1")
+                        {
+                            while (true)
+                            {
+
+                                Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.WriteLine(GlobalAttribute.wildStudent);
+                                Console.Write("    ");
+                                Console.WriteLine("                        PROMOTION               ");
+                                Console.WriteLine("    ");
+                                Console.Write("    ");
+                                Console.WriteLine("[1] LISTER LA PROMOTION 2010 - 2014 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[2] MOYENNE PROMOTION 2010 - 2014 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[3] RETOUR ");
+                                string optionChoice_1 = Console.ReadLine();
+
+                                if (optionChoice_1 == "1")
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.Write("    ");
+                                    Console.WriteLine("                       PROMOTION 2010-2014               ");
+                                    Console.WriteLine("");
+                                    application._ListerPromotion("2010-2014");
+                                    Console.Write("    ");
+                                    Console.ReadLine();
+
+                                }
+                                else if (optionChoice_1 == "2")
+                                {
+
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.Write("    ");
+                                    Console.WriteLine("                       MOYENNE PROMOTION 2010-2014               ");
+                                    Console.WriteLine("    ");
+                                    Console.Write("    ");
+                                    Console.ReadLine();
+                                } else if (optionChoice_1 == "3")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("    ");
+                                    Console.Write("    ");
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.Write("Vous avez saissi une mauvaise option !");
+                                    Console.ResetColor();
+                                    PromotionChoix = Console.ReadLine();
+                                }
+
+                            }
+
+                        }
+                        else if (PromotionChoix == "2")
+                        {
+                            while (true)
+                            {
+                                Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.WriteLine(GlobalAttribute.wildStudent);
+                                Console.Write("    ");
+                                Console.WriteLine("                       PROMOTION               ");
+                                Console.WriteLine("    ");
+                                Console.Write("    ");
+                                Console.WriteLine("[1] LISTER LA PROMOTION 2014 - 2018 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[2] MOYENNE PROMOTION 2014 - 2018 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[3] RETOUR ");
+                                string optionChoice_2 = Console.ReadLine();
+
+                                if (optionChoice_2 == "1")
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.Write("    ");
+                                    Console.WriteLine("                       PROMOTION 2014-2018               ");
+                                    Console.WriteLine("");
+                                    application._ListerPromotion("2014-2018");
+                                    Console.Write("    ");
+                                    Console.ReadLine();
+
+                                }
+                                else if (optionChoice_2 == "2")
+                                {
+
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.Write("    ");
+                                    Console.WriteLine("                       MOYENNE PROMOTION 2014-2018               ");
+                                    Console.WriteLine("");
+
+                                    Console.Write("    ");
+                                    Console.ReadLine();
+                                }
+                                else if (optionChoice_2 == "3")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("    ");
+                                    Console.Write("    ");
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.Write("Vous avez saissi une mauvaise option !");
+                                    Console.ResetColor();
+                                }
+                            }
+                        }
+                        else if (PromotionChoix == "3")
+                        {
+                            while (true)
+                            {
+                                Console.Clear();
+                                Console.ForegroundColor = ConsoleColor.Cyan;
+                                Console.WriteLine(GlobalAttribute.wildStudent);
+                                Console.Write("    ");
+                                Console.WriteLine("                       PROMOTION               ");
+                                Console.WriteLine("    ");
+                                Console.Write("    ");
+                                Console.WriteLine("[1] LISTER LA PROMOTION 2018 - 2022 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[2] MOYENNE PROMOTION 2018 - 2022 ");
+                                Console.Write("    ");
+                                Console.WriteLine("[3] RETOUR ");
+                                Console.Write("    ");
+                                string optionChoice_3 = Console.ReadLine();
+
+                                if (optionChoice_3 == "1")
+                                {
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.WriteLine("    ");
+                                    Console.WriteLine("                       PROMOTION 2018-2022               ");
+
+                                    Console.WriteLine("    ");
+                                    application._ListerPromotion("2018-2022");
+                                    Console.Write("    ");
+                                    Console.ReadLine();
+
+                                }
+                                else if (optionChoice_3 == "2")
+                                {
+
+                                    Console.Clear();
+                                    Console.ForegroundColor = ConsoleColor.Cyan;
+                                    Console.WriteLine(GlobalAttribute.wildStudent);
+                                    Console.Write("    ");
+                                    Console.WriteLine("                       MOYENNE PROMOTION 2018-2022               ");
+                                    Console.WriteLine("    ");
+
+                                    Console.ReadLine();
+                                }
+                                else if (optionChoice_3 == "3")
+                                {
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("    ");
+                                    Console.Write("    ");
+                                    Console.ForegroundColor = ConsoleColor.Red;
+                                    Console.Write("Vous avez saissi une mauvaise option !");
+                                    Console.ResetColor();
+                                    PromotionChoix = Console.ReadLine();
+                                }
+                            }
+                        } else if (PromotionChoix == "4")
+                        {
+                            break;
+                        }
+                        else
+                        {
+
+                            Console.WriteLine("    ");
+                            Console.Write("    ");
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write("Vous avez saissi une mauvaise option !");
+                            Console.ResetColor();
+
+                            Console.ReadLine();
+
+                        }
+                    }
+                }
                 else
                 {
 
@@ -701,12 +965,10 @@ namespace Application_wild_student.Menu
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Vous avez saissi une mauvaise option !");
                     Console.ResetColor();
-                    ChoixMenuPrincipal =  Console.ReadLine();
+                    Console.ReadLine();
                     
               }   
            }
         }
-         
-
     }
 }

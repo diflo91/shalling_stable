@@ -8,15 +8,18 @@ public class Eleve
     public string Nom { get; set; }
     public string Prenom { get; set; }
     public string DateDeNaissance { get; set; }
+    public string Promotion { get; set; }
     public List<Cours> ListeCours { get; set; } = new List<Cours>();
     public List<Note> ListeNotes { get; set; } = new List<Note>();
 
-    public Eleve(int identifiant, string nom, string prenom, string dateDeNaissance)
+    public Eleve(int identifiant, string nom, string prenom, string dateDeNaissance, string promotion)
     {
         Identifiant = identifiant;
         Nom = nom;
         Prenom = prenom;
         DateDeNaissance = dateDeNaissance;
+        Promotion = promotion;
+
     }
 
     public void AjouterCours(Cours cours)
